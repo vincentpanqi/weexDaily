@@ -1,0 +1,9 @@
+{
+    "AppName": "WeexApp",
+    "Version": "0.1",
+    "BuildVersion": "0.1.0",
+    "AppId": "Li Jiang",
+    "CodeSign": "Jlraining",
+    "Profile": "Jlraining",
+    "WeexBundle": "index.js"
+}

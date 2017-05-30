@@ -1,0 +1,224 @@
+<template>
+    <div>
+        <list class="content">
+          <cell repeat="{{item in storyList}}">
+            <wxc-item-story scope="{{item.type}}"
+                            item="{{item}}">
+            </wxc-item-story>
+          </cell>
+        </list>
+        <nav-bar id="nav" title="{{nav_title}}"></nav-bar>
+        <div if="showMenu"
+             id="menuDiv"
+             style="height: {{deviceHeight}}px;width:750px;position:absolute;top:0;right:0;background-color:rgba(0,0,0,0.5)"
+             onclick="hideMenu">
+            <div style="width:300px;background-color:#fff;position:absolute;top:100px;right:10px;">
+                <list class="list">
+                    <cell class="row" repeat="{{rows}}" onclick="onMenuItemclick"
+                          index="{{$index}}" rowdata="{{data}}">
+                        <div class="menu-item">
+                            <text class="menu-item-title">{{data}}</text>
+                        </div>
+                    </cell>
+                </list>
+            </div>
+        </div>
+    </div>
+</template>
+
+<style>
+    .content {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .reading-list {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .text-type {
+        color: white;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .menu-item {
+        justify-content: center;
+        border-bottom-width: 2px;
+        border-bottom-color: #c0c0c0;
+        height: 100px;
+        padding: 20px;
+    }
+
+    .home-img {
+        position: absolute;
+        width: 750px;
+        padding: 0;
+        margin: 0;
+        background: no-repeat center center;
+        background-size: cover;
+    }
+
+    .sentence-bg {
+        position: absolute;
+        width: 750px;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .day {
+        color: white;
+        text-align: left;
+        font-size: 70px;
+        line-height: 70px;
+        margin-bottom: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .month {
+        color: white;
+        text-align: left;
+        font-size: 35px;
+        margin-top: 11px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .text-content-short {
+        width: 710px;
+        max-height: 90px;
+        margin-top: 14px;
+        color: white;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 28px;
+        margin-bottom: 20px;
+        -webkit-box-orient: vertical;
+    }
+</style>
+
+<script>
+    require('weex-components');
+    require('./include/wxc-item-story.we');
+    var modal = require('@weex-module/modal');
+    var navigator = require('@weex-module/navigator');
+    var apis = require('./lib/api');
+
+    module.exports = {
+        data: {
+             title: '',
+             storyList: [{
+                    "images": ["http:\/\/pic4.zhimg.com\/462cb9472bfb68b9d3e3d2496c2587bf.jpg"],
+                    "type": 0,
+                    "id": 9057103,
+                    "ga_prefix": "121522",
+                    "title": "小事 · 有文化也挺可怕"
+              }, {
+                  "images": ["http:\/\/pic1.zhimg.com\/99cff80b2bcfc37bc6d6ebbafb44c7f8.jpg"],
+                  "type": 0,
+                  "id": 9061761,
+                  "ga_prefix": "121521",
+                  "title": "我跑步的目标不是终点，是为了追上另一种人生"
+              }],
+             baseURL: '',
+             value: '',
+             current_index: 0,
+             current_translate: '',
+             current_info_translate: '',
+             imageList: [],
+             showSliderContent: true,
+             nav_title: '热门',
+             showMenu: false,
+             showMainSlider: true,
+             deviceHeight: 1024,
+             rows: [{data: '2017-05'}, {data: '2017-04'}, {data: '2017-03'}, {data: '2017-02'}, {data: '2017-01'}]
+        },
+
+        created: function () {
+            var self = this;
+            var bundleUrl = this.$getConfig().bundleUrl;
+
+            this.$on('pickTime', function (e) {
+              self.showMenu = true;
+            });
+
+            apis.getCarouseList(contentId, function (ret) {
+                for (var i = 0; i < ret.data.length; i++) {
+                    var item = ret.data[i];
+                    item.showType1 = item.type == 1;
+                    item.showType2 = item.type == 2;
+                    item.showType3 = item.type == 3;
+                    self.readingList.push(item);
+                }
+            });
+
+            this.baseURL = apis.getBaseUrl(bundleUrl,true);
+
+        },
+        methods: {
+            getHomeData: function (dateStr) {
+                var self = this;
+                self.imageList = [];
+                apis.getHome(dateStr, function (retdata) {
+                   var tempData = retdata.data
+                    self.nav_title = dateStr;
+                    // var monthdata = ['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May.', 'Jun.', 'Jul.', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'];
+                    //
+                    // for (var i = 0; i < tempData.length; i++) {
+                    //     var datap = tempData[i];
+                    //     var hpMarketTime = new Date(datap.hp_makettime.split(' ')[0]);
+                    //     datap.hp_day = hpMarketTime.getDate();
+                    //     datap.hp_month = monthdata[hpMarketTime.getMonth()];
+                    //     datap.hp_year = hpMarketTime.getFullYear();
+                    // }
+
+                    self.imageList = tempData;
+                });
+            },
+
+            onReadCellClick: function (e) {
+                var self = this;
+                var itemid = e.target.attr.cid;
+                self.openEssayDetail(itemid);
+            },
+
+            openEssayDetail: function (id) {
+                var params = {
+                    'url': this.baseURL + 'essay-detail.js?id=' + id,
+                    'animated': 'true'
+                };
+                navigator.push(params, function (e) {
+                    //callback
+                });
+            },
+
+            anim: function (styles, el, timingFunction, duration, callback) {
+                this.$call('animation', 'transition', el, {
+                    styles: styles,
+                    timingFunction: timingFunction,
+                    duration: duration
+                }, callback);
+            },
+
+            hideMenu: function (e) {
+                var self = this;
+                this.anim({
+                    opacity: 0
+                }, this.$el('menuDiv'), 'ease-out', 200, function () {
+                    self.showMenu = false;
+                });
+            },
+            onMenuItemclick: function (e) {
+                this.$call('modal', 'toast', {
+                    'message': 'row ' + e.target.attr.rowdata + ' clicked',
+                    'duration': 2.0
+                });
+                //this.getHomeData(e.target.attr.rowdata);
+                this.hideMenu(e);
+            }
+        }
+    }
+
+</script>

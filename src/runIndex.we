@@ -1,0 +1,247 @@
+<template>
+  <scroller class="container">
+    <nav-bar-normal title="运动"></nav-bar-normal>
+    <text class="title">我的运动</text>
+    <div class="data-container">
+      <div class="data-circle">
+
+        <div class="total-distance">
+          <text class="total-label">运行总距离</text>
+          <text class="total-number">{{total.distance}}</text>
+          <text>公里</text>
+        </div>
+        <div class="btn-go" onclick="go">
+          <text class="btn-go-text">开始跑步</text>
+        </div>
+      </div>
+      <div class="data-dashboard">
+        <div class="data-dashboard-item">
+          <text class="data-dashboard-label">热量</text>
+          <div class="unit-box">
+            <text class="unit-number">{{total.calories}}</text>
+            <text class="unit-text">千卡</text>
+          </div>
+        </div>
+        <div class="data-dashboard-item">
+          <text class="data-dashboard-label">时间</text>
+          <div class="unit-box">
+            <text class="unit-number">{{total.time}}</text>
+            <text class="unit-text">分钟</text>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="history-center">
+      <text>历史记录</text>
+      <div class="list">
+        <div class="item" repeat="item in historyData" index="{{$index}}" onclick="viewData($index)">
+          <div class="item-distance">
+            <unit number="{{item.miles}}" label="千米"></unit>
+          </div>
+          <div class="item-time-info">
+            <unit style="flex:1;" number-size="24" number="{{item.time}}" label=""></unit>
+            <unit style="flex:1" number-size="24" number="{{item.date}}" label=""></unit>
+          </div>
+        </div>
+      </div>
+    </div>
+  </scroller>
+</template>
+
+<style>
+  .container{
+    position: relative;
+    flex: 1;
+    background-color: #eee;
+  }
+  .title {
+    font-size: 45;
+    padding: 20;
+    justify-content: center;
+    align-items: center;
+    color: #e74c3c;
+    background-color: #fff;
+  }
+  .data-container{
+    padding: 20;
+    border-bottom-color: #ddd;
+    border-bottom-width: 2;
+    background-color: #fff;
+    justify-content: center;
+  }
+
+  .data-circle{
+    align-items: center;
+  }
+  .btn-go{
+    width: 400;
+    padding: 20;
+    margin-top: 60;
+    background-color: #FF4E50;
+    border-width: 4;
+    border-color: #ffffff;
+    border-radius: 40;
+    align-items: center;
+    border-radius: 10;
+  }
+  .btn-go-text{
+    color: #ffffff;
+  }
+  .data-dashboard{
+    border-top-color: #ddd;
+    border-top-width: 2;
+    margin-top: 20;
+    flex-direction: row;
+  }
+  .data-dashboard-item{
+    flex:1;
+    align-items: center;
+  }
+  .data-dashboard-label{
+    font-size: 24;
+    color: #999;
+    padding-top: 20;
+    padding-top: 20;
+  }
+
+  .history-center{
+    padding: 20;
+    margin-top: 40;
+    margin-bottom: 20;
+    background-color: #fff;
+    border-bottom-color: #ddd;
+    border-bottom-width: 2;
+  }
+  .item{
+    padding: 20;
+    border-top-width: 1;
+    border-top-color: #ccc;
+    flex-direction: row;
+  }
+  .item-distance{
+    flex:1;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .item-time-info{
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+
+  .footer{
+    font-size: 16;
+    color: #999;
+    padding: 20;
+    align-items: center;
+  }
+  .unit-box{
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .unit-number {
+    display: inline-block;
+    font-size: 50;
+    color: #111;
+  }
+  .unit-text{
+    font-size: 22;
+    color: #333;
+    padding-left: 20;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .total-distance{
+    width: 400;
+    align-items: center;
+    justify-content: center;
+  }
+  .total-label{
+    font-size: 30;
+    color: #999;
+  }
+  .total-number{
+    font-size: 120px;
+  }
+</style>
+
+<script>
+ // require('weex-percentage-circle')
+ // require('./include/unit.we');
+  require('./include/list.we');
+
+  require('weex-components');
+  var modal = require('@weex-module/modal');
+  var apis = require('./lib/api');
+
+  const utils = require('./lib/utils');
+  const navigator = require('@weex-module/navigator');
+  const storage = require('@weex-module/storage');
+
+  module.exports = {
+    data: {
+      total: {
+        distance: 0,
+        calories: 0,
+        time: 0,
+      },
+      plan: {
+        distance: 30
+      },
+      historyData: [],
+      baseURL: ""
+    },
+
+    created: function () {
+        var bundleUrl = this.$getConfig().bundleUrl;
+        this.baseURL = apis.getBaseUrl(bundleUrl,true);
+    },
+
+    methods: {
+      go() {
+        var bundleUrl = this.$getConfig().bundleUrl;
+
+        var params = {
+            'url': apis.getBaseUrl(bundleUrl,true) + 'running.js',
+            'animated': 'true'
+        };
+
+        navigator.push(params, function (e) {
+            //callback
+        });
+      },
+
+      viewData(index) {
+        var bundleUrl = this.$getConfig().bundleUrl;
+        navigator.push({
+          'url': apis.getBaseUrl(bundleUrl,true) + 'running.js?index=' + index,
+          'animated': 'true'
+        })
+      },
+
+    },
+
+    created() {
+      const self = this;
+      storage.getItem('runningData', function (res) {
+        if (res.result == 'success') {
+          try {
+            let data = JSON.parse(res.data);
+            self.historyData = data;
+            self.total.distance = utils.calcTotal(data, 'miles');
+            // console.log(self.total.distance);
+            self.total.calories = utils.calcTotal(data, 'calories');
+            self.total.time = utils.setTimeFormat(utils.calcTotal(data, 'seconds'));
+
+          } catch (e) {
+            // console.log('parse error ');
+          }
+        }
+
+      });
+    }
+  }
+</script>
