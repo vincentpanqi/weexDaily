@@ -1,0 +1,1 @@
+../../../../Weexplugin/Weexplugin/Plugins/weex-amap/NSString+WXMap.h

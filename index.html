@@ -19,19 +19,6 @@
 <body>
   <div id="weex"></div>
   <script>
-  /**
-   * Init weex instance depending on the url params.
-   * There are three ways to load weex bundles, depends on the
-   * parameter 'loader' in the url:
-   *
-   *   + xhr: use XMLHttpRequest. Parameter 'page' should be
-   *   the bundle's url.
-   *   + source: use the transformed code itself. 'page' should
-   *   be the transformed weex bundle.
-   *
-   * @param {String} bundle - It has different meaning depends on
-   *   the type of loader.
-   */
   (function () {
     function getUrlParam (key) {
       var reg = new RegExp('[?|&]' + key + '=([^&]+)')

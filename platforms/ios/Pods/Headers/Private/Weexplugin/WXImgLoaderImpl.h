@@ -1,0 +1,1 @@
+../../../../Weexplugin/Weexplugin/Plugins/weex-adapter-image/WXImgLoaderImpl.h

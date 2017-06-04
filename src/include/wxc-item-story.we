@@ -54,8 +54,8 @@
             },
             image: {
                 get: function () {
-                    if (this.item && this.item.images && this.item.images.length > 0) {
-                        return this.item.images[0];
+                    if (this.item && this.item.image) {
+                        return this.item.image;
                     }
                     return '';
                 }
@@ -63,11 +63,6 @@
         },
         data: {
             item: {
-                "images": ["http:\/\/pic3.zhimg.com\/f632efba140aed5cc8b1a7ebd65db716.jpg"],
-                "type": 0,
-                "id": 9064596,
-                "ga_prefix": "121718",
-                "title": "什么技术可以体验交换身体的感觉？"
             }
         },
         methods: {}

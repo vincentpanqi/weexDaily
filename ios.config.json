@@ -2,8 +2,8 @@
     "AppName": "WeexApp",
     "Version": "0.1",
     "BuildVersion": "0.1.0",
-    "AppId": "Li Jiang",
-    "CodeSign": "Jlraining",
-    "Profile": "Jlraining",
+    "AppId": "com.apple.weex",
+    "CodeSign": "Apple Worldwide Developer Relations Certification Authority",
+    "Profile": "",
     "WeexBundle": "index.js"
 }

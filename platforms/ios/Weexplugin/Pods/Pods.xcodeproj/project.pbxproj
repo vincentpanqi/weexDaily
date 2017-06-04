@@ -7,385 +7,926 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		528454751913F8C6E5A3B1622C58DB36 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 530F86642D7B178EB5004AEEBFA030C5 /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63DFC39F9B0564D03D9E8F610EB819DC /* Pods-Weexplugin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 745D2E4149FC607E3E180FF8BA438ED8 /* Pods-Weexplugin-dummy.m */; };
-		77C99190A4526C96251270BABA5A250E /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FAF28D94FB165C5C776236072430BC /* SocketRocket-dummy.m */; };
-		806F5F28200EBC5778DB4BE16DD776E4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A847C3B26F9C9E99A5ACEACF501F86DD /* CFNetwork.framework */; };
-		89C596962739A9118A3DE970945B0749 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 990BA9A8508B5C663FAC50904749A1D4 /* SRWebSocket.m */; };
-		A1EF7D73C492B56E15625B8D0972C768 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F6DD994291AA39A94BEECAFAF0D785 /* Security.framework */; };
-		B12ED63C8FD3C116BEFCF8FFAE1B192B /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 837173DE3C8FA0E98C483290592634E2 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D611B423808E948313206D3B35B395BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */; };
-		E773AE309A437F1421D9EEDC93D5B6A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */; };
+		00297FE86D8F62AB224C121F39BF46A3 /* WXMapPolygonComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 13282AD84C96CDBEFDA73F18D06ADBFB /* WXMapPolygonComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04FAD286C71C569CDD387FE4916ADCEB /* Pods-WeexUITestDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6349EE8E41DC54A050029C0C1C43D09 /* Pods-WeexUITestDemo-dummy.m */; };
+		09B9B597F577C7DF113AAFC6363284F9 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = DF3ED534DF8508FE8BE1984B9B2DDA2F /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A4AD7804D73770134577B5208DA0A28 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C7CE29184AFFE6894EE38EA3DF286721 /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D18237B437EA6165550556502766CAC /* WXMapViewComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E1284DFCA73E761356C8574171EF4B /* WXMapViewComponent.m */; };
+		0F35C9EF82D0CE83E2615AB594A241F9 /* WXImgLoaderImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EBA73183534628867C41DCBF7DF608 /* WXImgLoaderImpl.m */; };
+		185B20D2555901F57B35D99373E76E0E /* WXConvert+AMapKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDBC4F9B8026A2810CA2C4EC61140C6 /* WXConvert+AMapKit.m */; };
+		1B0D5F820D3EB9AD97C3AFF57F05AA77 /* NSString+WXMap.m in Sources */ = {isa = PBXBuildFile; fileRef = F934D54AB426EDC4C9FFCD661B935B22 /* NSString+WXMap.m */; };
+		1B2AB0F1DFE81F884713F3D7287D1DFE /* NSString+WXMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5524C10E5F53169BC5A1F047F55686FD /* NSString+WXMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BF22A22CFE99CFFD8300E6ECA53DAE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3952BF2F287982A17A4D8B9F01F95D71 /* Foundation.framework */; };
+		1ED840E41E70CEBCF4DE2370E873A856 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408D1ED9D79325C44ECAF57491E78809 /* ImageIO.framework */; };
+		23EEB14F092BD27E4388EF76B3383847 /* WXMapViewMarkerComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E79A6AA9242252D3EAD9C4C1FAAF62F /* WXMapViewMarkerComponent.m */; };
+		28248B67B7933D77D6B2CD09EB0A03B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3952BF2F287982A17A4D8B9F01F95D71 /* Foundation.framework */; };
+		29CD16E123992414AFF319DF1DA098F1 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DE883D65D9E127C03A1FF0A290661A1C /* SDWebImagePrefetcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2B30D14523BA10836F859A4CE549D961 /* WXMapInfoWindowComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F60CABC1B323683049DF991F6F6F3D2 /* WXMapInfoWindowComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B842C94DE4B3EBC498D515300DF5A2B /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0FEC15AEC6B6C8BBA5DDA982AB2C41 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D193137E3F84275D3B825B7D9DF034F /* WXImgLoaderImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 807020D1755EC73276290D5E977D822C /* WXImgLoaderImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E1110D39AFE7AC9816E8549A92A7D5F /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE609AB444F493B76E092FA76E85E20 /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ED8622667CF2440D682E9634E6126DB /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C802ECE64D542A67BAE9B22E8C36A8 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F55E4B6C3AB5DC80AE1DDC5593EA5FF /* WXMapInfoWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E71311450073C6F7A0EBE289E4C3FD /* WXMapInfoWindow.m */; };
+		39B4EDD347E74401F79CD045EEA5D8A6 /* WXMapViewComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FFA42BAB324C2C1EB151F602B8BDE09 /* WXMapViewComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D3A6B00ED8A26921AE0C10F751EDED7 /* WeexPluginLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A085EBC1D20F46A689A4FDCF1196E2 /* WeexPluginLoader.m */; };
+		406414C9C3DD6EAC68BD0C12711A6814 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 2063AF8AC6233553402E0DF1223A2CFD /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41F8B60B03CEB47BC236CA81CB99EAB1 /* WXMapRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F0679BC68ACF6C7467B27DD8D52958 /* WXMapRenderer.m */; };
+		43A3629897665BAB5D1660951A8D5A2B /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B99044EB8D34259610BFBBCEB0A6937 /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4773FD8507AE7FD0E6090AC64242FB90 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = F70C1DD4F301D61D501AF3ACF15B41DC /* NSData+ImageContentType.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4AE8A24D7209D1A2E12C3376A834BA7E /* WeexPluginLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1452E6B84B46C334F4F69A1CF65C14C0 /* WeexPluginLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C095D40553E9300248F737F189CFE6D /* WXMapCircleComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = A97149AA991580DD2E3F5DE2305A1B3A /* WXMapCircleComponent.m */; };
+		4F20F12F310FCD3F89F15213DC08B4DA /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D42FD6152E9C017D5A99D1EB079A5539 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		527C4C48BBF84B93F1E98DBF7246E935 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB234FE653F1663190074DCC5AF3C14 /* UIImageView+HighlightedWebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		530864EE67916E5FFFAFDB72ED7872E4 /* WXMapCircleComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 611EF12F72C58D76C4C9FD0C56449DF8 /* WXMapCircleComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59940C8EFD4348EDB3373197F68B3E84 /* WXMapViewModule.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB144D0D290B62E6935A1759742FA0F /* WXMapViewModule.m */; };
+		63DC646ED8F9AAA9A635442677D478C8 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E8D08EC055E957A038C2879C799ED8E3 /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64DFC79AB6A14D9B731EAB517246CE48 /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D06664DF5F72F4330F95022CC32666 /* SDWebImage-dummy.m */; };
+		655A31FC412E6CBA1E65AA2E6D0D6B8F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174B50DBEC7476F86B037EDE845950E2 /* Security.framework */; };
+		6C818C7A02AA328124696F6F902C43D5 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACBD07B606CD125A92837C93F301BF0 /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DC362003EAB1E63E2934B284470DE01 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E848968F471400898E3D613A38DD0E1 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DF6F74AD02B8AC7EE557BFCFE020A3A /* WeexPluginManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3293EF997F78401382A22D183FC161BF /* WeexPluginManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EABEC8D864F9481E25B15B2B46E559D /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D71FC9D0195785A9490C3A88ECDF787 /* SDWebImageDownloader.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		816CA0A31955FE15D5A60E9E6BDF5D73 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BA1A20BB9E5612D4621DEED305E393 /* UIImage+GIF.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		819E221CFD7750681D5C8DB00FDE2C2F /* WXMapViewModule.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF9A11701DC6BA743FF052E192C9A86 /* WXMapViewModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8391FD2A214CD45623D084927915D965 /* WXMapInfoWindowComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADB53D0F54FBE8D1B620BF05A827D81 /* WXMapInfoWindowComponent.m */; };
+		8516969C9F72BA6CB97EAE9DCFC2397F /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B736B288B064292B3E6D53BE75712107 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E394FC6B576DC15AE4FDF9A32B101EB /* WXMapRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = C85673C4A311AF49389AD23F427A66E2 /* WXMapRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E7170FB4C5B546F089DB8FE6F1AF16D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3952BF2F287982A17A4D8B9F01F95D71 /* Foundation.framework */; };
+		8F5D0D15F3A62A6A85AAE057C4E9A528 /* WXMapInfoWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD52FDB9A115BE92EB5A8392E06D4F6 /* WXMapInfoWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		905382AC7880F0299A558B97CD0D666D /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7692355C9D38B03EBFDD7175E00EBFBB /* SDWebImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95C4638F0A9BD6F6FE31FCE0714CD9E5 /* WXMapPolylineComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 998D63B816D6D6493EB51962DFE9C285 /* WXMapPolylineComponent.m */; };
+		9767BB5F296B0BC5A81A1768C1CAE567 /* WXMapPolylineComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B3D4048FD0C6C7C27454471775C8173 /* WXMapPolylineComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		992B87FA6265E24778A0044D435FF375 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC4E8EA6496EF677313657B4F59C3E /* SDWebImageDecoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9FF05B0F10E82B4844755FF9F835CCA4 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBFCA43B882AF97F957AB55C3D2CD36 /* UIView+WebCacheOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A2871DA48F5FE3B31FCF0CA3DF876B55 /* WXConvert+AMapKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F297A505949C5749D3BACA55A31E89 /* WXConvert+AMapKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3F71BDE469705F45F3F3BEDA7AC6192 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A674D8F0C76A8F2C14485E33ED6124F8 /* UIButton+WebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A4B7F59E272B67469F56CCBDE96A73F1 /* Pods-WeexDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C340CE81C3A4C8222F5687E66C00FB6 /* Pods-WeexDemo-dummy.m */; };
+		AA9962404AE61115BE6C394EC631D358 /* WeexPluginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 928FDF973CED6BCCCDDE7CE753EDEFA3 /* WeexPluginManager.m */; };
+		ABAC3FF301C717B80CAF1E7314804856 /* WXMapPolygonComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1E70D414CEA66B7AAE2E1FB6B07EF6 /* WXMapPolygonComponent.m */; };
+		ADE8ACC557E26EF3CA11E3A0FE96C5D6 /* WeexPluginConfigParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D63E4A6F1E590E656C2CD96512E324DF /* WeexPluginConfigParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEE10D19EF8B7B4AAB864DDAF792AB99 /* NSDictionary+WXMap.m in Sources */ = {isa = PBXBuildFile; fileRef = F208409C54C36F1F84B37890FAFAD007 /* NSDictionary+WXMap.m */; };
+		B0BB901DA2B5422B4458A89AAA2CB288 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB1AC96F7B93B48B199F768D1CD937C /* SDWebImageManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B7D4AC3214F4E9991E14EC81E54E2920 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B3E4F4B7DE1118CD613DF4EA684CF0C9 /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBC55DF0016DBC7D0254F5A3A041358A /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 360D3CA3ADC9649E0E9EEA782523D497 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC8E063C8333ADFBEF647A66403CBEA7 /* NSArray+WXMap.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0BEBDFEDAD5AD69B608FC93FF71D9E /* NSArray+WXMap.m */; };
+		C37C3F9CDE1855B30AFB090904CC6624 /* Weexplugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 5169705E4C6B4FAA2E2617CBC04D9B13 /* Weexplugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3C175A4BACD2396B7C0F27296B26E3B /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 480C92A9C5404FD679E2A5E54FA8EF87 /* SDWebImageDownloaderOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C418A1C249DE7BFD1B84E8FAC357FDFC /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B07E78BCC933F0CDB243322991FB636 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C75F0B949024D40A9E1CD2245A07045F /* Weexplugin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6138A5D7ED10148415D13D950A0E82CC /* Weexplugin-dummy.m */; };
+		C941FC582B89FFF823F166DEF028F69A /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 460C2B6A3F763937441C7EDB331FF149 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAA86E74D778A662B31C77488A074399 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A48041FE3F3EED9CDE75361C770E0DBF /* SRWebSocket.m */; };
+		D5CEA2EB36F7677B3849834B69171538 /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1CCA6DA1ED3E879F74D8EE18C33333 /* SocketRocket-dummy.m */; };
+		DAF7E5F034F31ACDF704FBCF8A6920F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3952BF2F287982A17A4D8B9F01F95D71 /* Foundation.framework */; };
+		E0BCCAD1098F7A2B881DF43BDC522386 /* WeexPluginConfigParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0611F1D349CF105E2725A4E75CE46E63 /* WeexPluginConfigParser.m */; };
+		E681CAC7083A2B280764BCF2A1841C70 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89EF1ADDBE153B3299871FDD8BDD6A38 /* CFNetwork.framework */; };
+		F0230F6257F8632DFC03DF525A8A53DC /* NSArray+WXMap.h in Headers */ = {isa = PBXBuildFile; fileRef = C12C2F8B692A5FA0D472821C0D6EDF8C /* NSArray+WXMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7C7AFA4D688FDF9B78BA03FA193D6A2 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9737C9726921B6B32FF8B6A5B21DED2E /* UIImage+MultiFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F989CFA7F50ED24FAF0293CC6B1B27B5 /* WXMapViewMarkerComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EF6102636E309D745780C12AC3A7B05 /* WXMapViewMarkerComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F99850FCBEE962D5D90F57C811209567 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3952BF2F287982A17A4D8B9F01F95D71 /* Foundation.framework */; };
+		FAA26DE58C4EC0FBDA104834E2C113F9 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 783F07F81EE7D7A1FC9D30DB50FC8FBE /* SDWebImageCompat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FC1B6DEF0328EB0A41AA16F8127B3775 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D1B827BCA6ED55A7EF1D7F414FFED7 /* UIImageView+WebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FEB4C150B485893B7EB5577CA45081FE /* NSDictionary+WXMap.h in Headers */ = {isa = PBXBuildFile; fileRef = ED481A16492F6CDDF40C17B7DDD39E73 /* NSDictionary+WXMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		649B9697E958DD366EBAF862A849ECE9 /* PBXContainerItemProxy */ = {
+		04374B420D5A230216894C74B6F6AAFA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E845039B2C5025B9C98F10244E1E3D43;
+			remoteGlobalIDString = 31DE895CBC97CB105992177E7D564116;
 			remoteInfo = SocketRocket;
+		};
+		434CE28F4AFC0A5E2C5CBFAFBA0D1D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B9EE9878C96119478703E62A800B840;
+			remoteInfo = SDWebImage;
+		};
+		491E0CDC012F57E32AC6D0F666CCD28D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31DE895CBC97CB105992177E7D564116;
+			remoteInfo = SocketRocket;
+		};
+		6DA5C7A166B925DEFDEE8F54F4D812AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B9EE9878C96119478703E62A800B840;
+			remoteInfo = SDWebImage;
+		};
+		B7250A7B7B348E009C77EB380C249A86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11D4598DC20954642F8668EE5F2A4296;
+			remoteInfo = Weexplugin;
+		};
+		D8D4D980E875DDFCDCBEFAD39B5E9067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31DE895CBC97CB105992177E7D564116;
+			remoteInfo = SocketRocket;
+		};
+		E1982AEA508F056B02B9776E078EA305 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11D4598DC20954642F8668EE5F2A4296;
+			remoteInfo = Weexplugin;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03AB2B7660D1653929AD84DE5BA8D331 /* MAPinAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPinAnnotationView.h; path = MAMapKit.framework/Headers/MAPinAnnotationView.h; sourceTree = "<group>"; };
-		0D92EDA68B8F22B05CCCE8822D238E23 /* Pods-Weexplugin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Weexplugin-acknowledgements.plist"; sourceTree = "<group>"; };
-		18BAB9BAAFB2D73F95619A78ADC50172 /* AMapURLSearchConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearchConfig.h; path = AMapFoundationKit.framework/Headers/AMapURLSearchConfig.h; sourceTree = "<group>"; };
-		1903F8C48EEE3266E12AD6906D4361DD /* MAGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGeometry.h; path = MAMapKit.framework/Headers/MAGeometry.h; sourceTree = "<group>"; };
-		1E448DFBECD775ED00B2E13051863801 /* MAPointAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPointAnnotation.h; path = MAMapKit.framework/Headers/MAPointAnnotation.h; sourceTree = "<group>"; };
-		227EB2D8A8977478248E8B643C801436 /* MAAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotationView.h; path = MAMapKit.framework/Headers/MAAnnotationView.h; sourceTree = "<group>"; };
-		253F46BEBD98CA1B5AAC50CD3495B0CD /* MAPolygonRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolygonRenderer.h; path = MAMapKit.framework/Headers/MAPolygonRenderer.h; sourceTree = "<group>"; };
-		30230BC2AB61355B3532C4016ED732D9 /* MAUserLocationRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAUserLocationRepresentation.h; path = MAMapKit.framework/Headers/MAUserLocationRepresentation.h; sourceTree = "<group>"; };
-		31AB58CD139D68FE2F1ECC2D157575A7 /* MAUserLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAUserLocation.h; path = MAMapKit.framework/Headers/MAUserLocation.h; sourceTree = "<group>"; };
-		31ECEEFD1B8335C517AAF1EC2AC985FF /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
-		3388DEEFF49E803893F21244D0F8EB46 /* MAGeodesicPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGeodesicPolyline.h; path = MAMapKit.framework/Headers/MAGeodesicPolyline.h; sourceTree = "<group>"; };
-		33DA445E963E9F0F92C473DE986CB466 /* Pods-Weexplugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Weexplugin.debug.xcconfig"; sourceTree = "<group>"; };
-		3468821DC8E8B43040B0D1E92DCBF773 /* Pods-Weexplugin-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Weexplugin-resources.sh"; sourceTree = "<group>"; };
-		37F3A1F4741704EE81BBB573CF308809 /* AMapUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapUtility.h; path = AMapFoundationKit.framework/Headers/AMapUtility.h; sourceTree = "<group>"; };
-		383622EE54259838A43F61A5FB8B3A49 /* wx_load_error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "wx_load_error@3x.png"; path = "WeexSDK.framework/wx_load_error@3x.png"; sourceTree = "<group>"; };
-		3854C9294C60A8D7EA97193DDAC83F69 /* MAGroundOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGroundOverlayRenderer.h; path = MAMapKit.framework/Headers/MAGroundOverlayRenderer.h; sourceTree = "<group>"; };
-		3B7D28AE3EC913BDAF536F4ABFC14141 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
-		3BDE047FCA03C4E58200EDDEBDB557B1 /* Pods-Weexplugin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Weexplugin-acknowledgements.markdown"; sourceTree = "<group>"; };
-		44FAF28D94FB165C5C776236072430BC /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
-		475A471999BFF1D3CE9DF6BE1F89FBA6 /* MATraceLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATraceLocation.h; path = MAMapKit.framework/Headers/MATraceLocation.h; sourceTree = "<group>"; };
-		4C9461C12A42B6C61A7406EE7F90495F /* MACircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACircle.h; path = MAMapKit.framework/Headers/MACircle.h; sourceTree = "<group>"; };
-		4CF536CE2D5A1CA744A047097D12E7C6 /* MAMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapView.h; path = MAMapKit.framework/Headers/MAMapView.h; sourceTree = "<group>"; };
-		50F6DD994291AA39A94BEECAFAF0D785 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		530F86642D7B178EB5004AEEBFA030C5 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
-		596B0769F629EC568FAF01619944BFA3 /* MAAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotation.h; path = MAMapKit.framework/Headers/MAAnnotation.h; sourceTree = "<group>"; };
-		5B752B99A9DDC8B14E53722A487C3466 /* MAOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlayRenderer.h; path = MAMapKit.framework/Headers/MAOverlayRenderer.h; sourceTree = "<group>"; };
-		5F1CC1F92A29D38B52BBBC285457E4EE /* MALineDrawType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MALineDrawType.h; path = MAMapKit.framework/Headers/MALineDrawType.h; sourceTree = "<group>"; };
-		681D26D412CF4F775C6A6A8EF8EF1484 /* MACircleRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACircleRenderer.h; path = MAMapKit.framework/Headers/MACircleRenderer.h; sourceTree = "<group>"; };
-		68463FB5477F265900E6E05D204A817E /* MAOfflineItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItem.h; path = MAMapKit.framework/Headers/MAOfflineItem.h; sourceTree = "<group>"; };
-		690854EA6A4FF768AFAEF996342687E7 /* MAPolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolylineRenderer.h; path = MAMapKit.framework/Headers/MAPolylineRenderer.h; sourceTree = "<group>"; };
-		6BE2B764F433811CD4D4DEB518B02B8F /* MAPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolygon.h; path = MAMapKit.framework/Headers/MAPolygon.h; sourceTree = "<group>"; };
-		7229D104890E57D7217BD2443DB5CB6C /* AMapURLSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearch.h; path = AMapFoundationKit.framework/Headers/AMapURLSearch.h; sourceTree = "<group>"; };
-		73A4C38AF4F4DECDE175CA89D923DCC9 /* MAHeatMapTileOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAHeatMapTileOverlay.h; path = MAMapKit.framework/Headers/MAHeatMapTileOverlay.h; sourceTree = "<group>"; };
-		745D2E4149FC607E3E180FF8BA438ED8 /* Pods-Weexplugin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Weexplugin-dummy.m"; sourceTree = "<group>"; };
-		76027021F32731CEBAC9634020B20772 /* MATraceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATraceManager.h; path = MAMapKit.framework/Headers/MATraceManager.h; sourceTree = "<group>"; };
-		76E7814E2574EC5C3C8B662A1163925A /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
-		7B53F1F1353B5EDBDE02C4F2A4FDCE91 /* MAPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolyline.h; path = MAMapKit.framework/Headers/MAPolyline.h; sourceTree = "<group>"; };
-		7E62A9BD63BC1DC15511BE9E61B12166 /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSocketRocket.a; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8355A53C4B3D9AB8100C2D62B7273AA8 /* MAMultiColoredPolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiColoredPolylineRenderer.h; path = MAMapKit.framework/Headers/MAMultiColoredPolylineRenderer.h; sourceTree = "<group>"; };
-		837173DE3C8FA0E98C483290592634E2 /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
-		89C4F1EBA8ABB6F05E5DEF77BF620D46 /* MAMapStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapStatus.h; path = MAMapKit.framework/Headers/MAMapStatus.h; sourceTree = "<group>"; };
+		0013512E8ADBEB133207793FA28ABBFF /* MAMultiPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiPoint.h; path = MAMapKit.framework/Headers/MAMultiPoint.h; sourceTree = "<group>"; };
+		04A085EBC1D20F46A689A4FDCF1196E2 /* WeexPluginLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WeexPluginLoader.m; sourceTree = "<group>"; };
+		0556F38BF3BE55325EBAD13254EB3BA3 /* WeexSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WeexSDK.framework; sourceTree = "<group>"; };
+		0611F1D349CF105E2725A4E75CE46E63 /* WeexPluginConfigParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WeexPluginConfigParser.m; sourceTree = "<group>"; };
+		0E9AD3A52339BD3E473C4643F829C69B /* MAMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapView.h; path = MAMapKit.framework/Headers/MAMapView.h; sourceTree = "<group>"; };
+		0FDD38496AA49AF89A5CB311E6355D9C /* Weexplugin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Weexplugin.xcconfig; sourceTree = "<group>"; };
+		13282AD84C96CDBEFDA73F18D06ADBFB /* WXMapPolygonComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXMapPolygonComponent.h; sourceTree = "<group>"; };
+		1452E6B84B46C334F4F69A1CF65C14C0 /* WeexPluginLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeexPluginLoader.h; sourceTree = "<group>"; };
+		14E07E47628114FD62A1C8FC369D5C62 /* AMapFoundationVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapFoundationVersion.h; path = AMapFoundationKit.framework/Headers/AMapFoundationVersion.h; sourceTree = "<group>"; };
+		1574D91B7CD552E61948E097A2B0BD66 /* MAOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlay.h; path = MAMapKit.framework/Headers/MAOverlay.h; sourceTree = "<group>"; };
+		15D06664DF5F72F4330F95022CC32666 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		15FA8D1A2781EA84118E92852CCF7E0B /* MAMapStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapStatus.h; path = MAMapKit.framework/Headers/MAMapStatus.h; sourceTree = "<group>"; };
+		174B50DBEC7476F86B037EDE845950E2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		1A1CCA6DA1ED3E879F74D8EE18C33333 /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		1E79A6AA9242252D3EAD9C4C1FAAF62F /* WXMapViewMarkerComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXMapViewMarkerComponent.m; sourceTree = "<group>"; };
+		1EAA500BD6768C7A8A4325171EA826AD /* MATileOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATileOverlay.h; path = MAMapKit.framework/Headers/MATileOverlay.h; sourceTree = "<group>"; };
+		2063AF8AC6233553402E0DF1223A2CFD /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		233366932F8547F150B918878EFC311F /* MAGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGeometry.h; path = MAMapKit.framework/Headers/MAGeometry.h; sourceTree = "<group>"; };
+		294D69C9873BB56C75C7BE4CC3BED1EE /* MAMapVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapVersion.h; path = MAMapKit.framework/Headers/MAMapVersion.h; sourceTree = "<group>"; };
+		2B99044EB8D34259610BFBBCEB0A6937 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		2D71FC9D0195785A9490C3A88ECDF787 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		305D51F22758ACEE59FA12ED609172E3 /* MAOfflineCity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineCity.h; path = MAMapKit.framework/Headers/MAOfflineCity.h; sourceTree = "<group>"; };
+		30774D5D3777EAA31B3C8FB7C8777425 /* ATSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ATSDK.bundle; path = ATSDK.framework/Versions/A/Resources/ATSDK.bundle; sourceTree = "<group>"; };
+		3283E89CC78AAF82A96E560EA6320FD0 /* MAOfflineProvince.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineProvince.h; path = MAMapKit.framework/Headers/MAOfflineProvince.h; sourceTree = "<group>"; };
+		3290C74BC567BBFDB0FB2A2A9F0D51D2 /* MAPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolygon.h; path = MAMapKit.framework/Headers/MAPolygon.h; sourceTree = "<group>"; };
+		3293EF997F78401382A22D183FC161BF /* WeexPluginManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeexPluginManager.h; sourceTree = "<group>"; };
+		33EBA73183534628867C41DCBF7DF608 /* WXImgLoaderImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXImgLoaderImpl.m; sourceTree = "<group>"; };
+		360D3CA3ADC9649E0E9EEA782523D497 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		38D68D5F400CB3E9333AAF1E2A3F6712 /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSocketRocket.a; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3952BF2F287982A17A4D8B9F01F95D71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3ACBD07B606CD125A92837C93F301BF0 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		3B3D4048FD0C6C7C27454471775C8173 /* WXMapPolylineComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXMapPolylineComponent.h; sourceTree = "<group>"; };
+		3C340CE81C3A4C8222F5687E66C00FB6 /* Pods-WeexDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeexDemo-dummy.m"; sourceTree = "<group>"; };
+		3D00B0D4FE79DB6ED38EAA62DA301F88 /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+		3EB50F83852BE37E0B0233BEBE408C58 /* MATraceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATraceManager.h; path = MAMapKit.framework/Headers/MATraceManager.h; sourceTree = "<group>"; };
+		3ED7B2DD1846F0DA353CBAAB646FC7B4 /* Pods-WeexDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeexDemo-resources.sh"; sourceTree = "<group>"; };
+		3F60CABC1B323683049DF991F6F6F3D2 /* WXMapInfoWindowComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXMapInfoWindowComponent.h; sourceTree = "<group>"; };
+		3FFA42BAB324C2C1EB151F602B8BDE09 /* WXMapViewComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXMapViewComponent.h; sourceTree = "<group>"; };
+		408D1ED9D79325C44ECAF57491E78809 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		43E1284DFCA73E761356C8574171EF4B /* WXMapViewComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXMapViewComponent.m; sourceTree = "<group>"; };
+		460C2B6A3F763937441C7EDB331FF149 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		4753112342400ECA60AB0DEABA1CE14B /* MAUserLocationRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAUserLocationRepresentation.h; path = MAMapKit.framework/Headers/MAUserLocationRepresentation.h; sourceTree = "<group>"; };
+		480C92A9C5404FD679E2A5E54FA8EF87 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		4A7ACBB1D61F3CF9C91B3670ED7BE339 /* TBWXDevTool.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TBWXDevTool.framework; sourceTree = "<group>"; };
+		4A8FBF71EEB6DC51068ECC4F9B134640 /* AMapServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapServices.h; path = AMapFoundationKit.framework/Headers/AMapServices.h; sourceTree = "<group>"; };
+		4AB234FE653F1663190074DCC5AF3C14 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		4B07E78BCC933F0CDB243322991FB636 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		4B2701A948ED5B12739AE961D9CE7FE0 /* wx_load_error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "wx_load_error@3x.png"; path = "WeexSDK.framework/wx_load_error@3x.png"; sourceTree = "<group>"; };
+		4C5E67FC01490E28CFCBD13EBC0EA27B /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		4DD52FDB9A115BE92EB5A8392E06D4F6 /* WXMapInfoWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXMapInfoWindow.h; sourceTree = "<group>"; };
+		4F9B6A47683894C51A66C883D9AE2105 /* WeexpluginConfig.xml */ = {isa = PBXFileReference; includeInIndex = 1; path = WeexpluginConfig.xml; sourceTree = "<group>"; };
+		5169705E4C6B4FAA2E2617CBC04D9B13 /* Weexplugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Weexplugin.h; sourceTree = "<group>"; };
+		527DEEA66459DD46DA9F035AA684B117 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		541A3D6370E681AFEDDE661940D27885 /* libWeexplugin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWeexplugin.a; path = libWeexplugin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5524C10E5F53169BC5A1F047F55686FD /* NSString+WXMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+WXMap.h"; sourceTree = "<group>"; };
+		579AAF2E6A073116F78106208168BCCF /* Pods-WeexUITestDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeexUITestDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5E848968F471400898E3D613A38DD0E1 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		611EF12F72C58D76C4C9FD0C56449DF8 /* WXMapCircleComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXMapCircleComponent.h; sourceTree = "<group>"; };
+		6138A5D7ED10148415D13D950A0E82CC /* Weexplugin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Weexplugin-dummy.m"; sourceTree = "<group>"; };
+		641119A7298C6A04928ACA6E7E7FD739 /* MAPointAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPointAnnotation.h; path = MAMapKit.framework/Headers/MAPointAnnotation.h; sourceTree = "<group>"; };
+		6766554A478A05BC826E47F37531EC3B /* AMapUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapUtility.h; path = AMapFoundationKit.framework/Headers/AMapUtility.h; sourceTree = "<group>"; };
+		69DE0FD4C256BBCC896D39525BF68BDA /* AMapFoundationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapFoundationKit.h; path = AMapFoundationKit.framework/Headers/AMapFoundationKit.h; sourceTree = "<group>"; };
+		6A8BCC8028AEEA70F2280E396A0A0FBF /* AMap.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
+		6C544662CE084E73BDD43DB62F3E75B3 /* MAOfflineItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItem.h; path = MAMapKit.framework/Headers/MAOfflineItem.h; sourceTree = "<group>"; };
+		6EDFD89865575A340DD482176BE89E3E /* AMapURLSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearch.h; path = AMapFoundationKit.framework/Headers/AMapURLSearch.h; sourceTree = "<group>"; };
+		6EE609AB444F493B76E092FA76E85E20 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		72D1B827BCA6ED55A7EF1D7F414FFED7 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		7692355C9D38B03EBFDD7175E00EBFBB /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
+		783F07F81EE7D7A1FC9D30DB50FC8FBE /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		7B8D504C2FA470B89F5DA08A20C99671 /* MAIndoorInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAIndoorInfo.h; path = MAMapKit.framework/Headers/MAIndoorInfo.h; sourceTree = "<group>"; };
+		7CA05F3CA74365321C172CC066F56BFB /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		807020D1755EC73276290D5E977D822C /* WXImgLoaderImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderImpl.h; sourceTree = "<group>"; };
+		84A95299C6A499ED1127785CED169447 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSDWebImage.a; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8513F088C00F9E14293FB6163278BBBF /* MAGroundOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGroundOverlayRenderer.h; path = MAMapKit.framework/Headers/MAGroundOverlayRenderer.h; sourceTree = "<group>"; };
+		852ECF64FC544E35A56BA439F3A205A7 /* MALineDrawType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MALineDrawType.h; path = MAMapKit.framework/Headers/MALineDrawType.h; sourceTree = "<group>"; };
+		8838D5BC9B83F73665B83059AE76DBEA /* MAAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotation.h; path = MAMapKit.framework/Headers/MAAnnotation.h; sourceTree = "<group>"; };
+		8843BE1ECE4A96D49FC82324430099AB /* MAGeodesicPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGeodesicPolyline.h; path = MAMapKit.framework/Headers/MAGeodesicPolyline.h; sourceTree = "<group>"; };
+		88C6B9D13A50A2E98C8489E11AB7596B /* Pods-WeexUITestDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeexUITestDemo-resources.sh"; sourceTree = "<group>"; };
+		88F9583B145C706ABF836F7DD3BB6863 /* Pods-WeexDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeexDemo.release.xcconfig"; sourceTree = "<group>"; };
+		89EF1ADDBE153B3299871FDD8BDD6A38 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		8E29E9228E58955A3BD8E707DCCA0D55 /* MAOfflineItemMunicipality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItemMunicipality.h; path = MAMapKit.framework/Headers/MAOfflineItemMunicipality.h; sourceTree = "<group>"; };
+		8F86F9214E5CA2E9997709910FAEA699 /* Pods-WeexUITestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeexUITestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		90F297A505949C5749D3BACA55A31E89 /* WXConvert+AMapKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXConvert+AMapKit.h"; sourceTree = "<group>"; };
+		928FDF973CED6BCCCDDE7CE753EDEFA3 /* WeexPluginManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WeexPluginManager.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		948E882CDA0D4E4900BFC29B63E53A96 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
-		94E3D78DDD34071CCF158F8221ED4364 /* AMapFoundationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapFoundationKit.h; path = AMapFoundationKit.framework/Headers/AMapFoundationKit.h; sourceTree = "<group>"; };
-		990BA9A8508B5C663FAC50904749A1D4 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
-		9B301C83D0AF9AF894F0630323B84237 /* MAIndoorInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAIndoorInfo.h; path = MAMapKit.framework/Headers/MAIndoorInfo.h; sourceTree = "<group>"; };
-		9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9EE0AF1159318630165884088327D1F0 /* MAConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAConfig.h; path = MAMapKit.framework/Headers/MAConfig.h; sourceTree = "<group>"; };
-		A3DFFA16AFAF1A3A2C51F6CC35B7A097 /* MAMultiPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiPoint.h; path = MAMapKit.framework/Headers/MAMultiPoint.h; sourceTree = "<group>"; };
-		A826C0A7705201DE0A7FB898911E459C /* MAAnnotationMoveAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotationMoveAnimation.h; path = MAMapKit.framework/Headers/MAAnnotationMoveAnimation.h; sourceTree = "<group>"; };
-		A847C3B26F9C9E99A5ACEACF501F86DD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		ACAD4F4143BA6D4708AE94BD4F88B851 /* MAOfflineCity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineCity.h; path = MAMapKit.framework/Headers/MAOfflineCity.h; sourceTree = "<group>"; };
-		AF506D97AFBFAC2E29FFDF51CF21A6EA /* MAOfflineProvince.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineProvince.h; path = MAMapKit.framework/Headers/MAOfflineProvince.h; sourceTree = "<group>"; };
-		B09F04951686798EFACF284E4687CD95 /* MATileOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATileOverlayRenderer.h; path = MAMapKit.framework/Headers/MATileOverlayRenderer.h; sourceTree = "<group>"; };
-		B3F4A87103E8841E8A335DE499996837 /* MAOfflineMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineMap.h; path = MAMapKit.framework/Headers/MAOfflineMap.h; sourceTree = "<group>"; };
-		BDED460E026A607EB26CE46AF616B4A8 /* AMap.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
-		BE0F6BA231894A48FC160F7216DAB0CD /* AMapServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapServices.h; path = AMapFoundationKit.framework/Headers/AMapServices.h; sourceTree = "<group>"; };
-		BF683BF7AC42E0A2F275F5009337F4A0 /* MAGroundOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGroundOverlay.h; path = MAMapKit.framework/Headers/MAGroundOverlay.h; sourceTree = "<group>"; };
-		C2B84A8240B13F8BA21BEF8C4CCB1DF6 /* main.js */ = {isa = PBXFileReference; includeInIndex = 1; name = main.js; path = WeexSDK.framework/main.js; sourceTree = "<group>"; };
-		C4BB700FD2C3DE1B57A480911A2ABE0D /* AMapFoundationVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapFoundationVersion.h; path = AMapFoundationKit.framework/Headers/AMapFoundationVersion.h; sourceTree = "<group>"; };
-		C7E9F1C105EEBEAABE5B616E9F363436 /* MAMultiTexturePolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiTexturePolylineRenderer.h; path = MAMapKit.framework/Headers/MAMultiTexturePolylineRenderer.h; sourceTree = "<group>"; };
-		C8AB3C5D382519C10B7A0518B0BF9C06 /* libPods-Weexplugin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Weexplugin.a"; path = "libPods-Weexplugin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBC17F3C20FFE2E2C460F80C8D59BD9B /* MAShape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAShape.h; path = MAMapKit.framework/Headers/MAShape.h; sourceTree = "<group>"; };
-		CF904E02D87B7E1F08691FAA93611566 /* MATileOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATileOverlay.h; path = MAMapKit.framework/Headers/MATileOverlay.h; sourceTree = "<group>"; };
-		DAAE232530CDFC59C919484D41B463CF /* MAAnimatedAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnimatedAnnotation.h; path = MAMapKit.framework/Headers/MAAnimatedAnnotation.h; sourceTree = "<group>"; };
-		DC8319F2EC2BBD2A12617CDCAD81B0AC /* MATouchPoi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATouchPoi.h; path = MAMapKit.framework/Headers/MATouchPoi.h; sourceTree = "<group>"; };
-		DE39D1F185F96977A55177B95FC369B2 /* AMapURLSearchType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearchType.h; path = AMapFoundationKit.framework/Headers/AMapURLSearchType.h; sourceTree = "<group>"; };
-		E08843A430FDD35169AE1A48329D5A3B /* MAOverlayPathRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlayPathRenderer.h; path = MAMapKit.framework/Headers/MAOverlayPathRenderer.h; sourceTree = "<group>"; };
-		E163D6F5D598CF71AE6076E7A755FC5D /* MAMapVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapVersion.h; path = MAMapKit.framework/Headers/MAMapVersion.h; sourceTree = "<group>"; };
-		E2131F9EFDB89611E86E461B70D009C5 /* MAOfflineItemMunicipality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItemMunicipality.h; path = MAMapKit.framework/Headers/MAOfflineItemMunicipality.h; sourceTree = "<group>"; };
-		EA82484D33853DF06CED658347031A1B /* MAOfflineItemNationWide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItemNationWide.h; path = MAMapKit.framework/Headers/MAOfflineItemNationWide.h; sourceTree = "<group>"; };
-		F001F553C3B7D9DB67CE78729A1A14D6 /* MAMultiPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiPolyline.h; path = MAMapKit.framework/Headers/MAMultiPolyline.h; sourceTree = "<group>"; };
-		F08A24F2A146B94C6A18C843A7BD08A5 /* WeexSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WeexSDK.framework; sourceTree = "<group>"; };
-		F120AEFC813A43C1B9D3F7B99814D3A9 /* MAMapKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapKit.h; path = MAMapKit.framework/Headers/MAMapKit.h; sourceTree = "<group>"; };
-		F4D905ABBBE33DCFB90765B318BCC44B /* MAOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlay.h; path = MAMapKit.framework/Headers/MAOverlay.h; sourceTree = "<group>"; };
-		F68783DD793C5245AF701D3C821AF4DD /* Pods-Weexplugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Weexplugin.release.xcconfig"; sourceTree = "<group>"; };
-		FF53A7BC5DB24BA08041CAB27F2A12E2 /* MAOfflineItemCommonCity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItemCommonCity.h; path = MAMapKit.framework/Headers/MAOfflineItemCommonCity.h; sourceTree = "<group>"; };
+		941BCDE52BD0DAC0D2AA894305C6EACE /* ATSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ATSDK.framework; sourceTree = "<group>"; };
+		9737C9726921B6B32FF8B6A5B21DED2E /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		98CC4E8EA6496EF677313657B4F59C3E /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		99004BCA41FAA286F99305C15AC5D77B /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = ATSDK.framework/Versions/A/Resources/en.lproj; sourceTree = "<group>"; };
+		994070BE3A80D03A89ADE5434C3395E3 /* MAPinAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPinAnnotationView.h; path = MAMapKit.framework/Headers/MAPinAnnotationView.h; sourceTree = "<group>"; };
+		998D63B816D6D6493EB51962DFE9C285 /* WXMapPolylineComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXMapPolylineComponent.m; sourceTree = "<group>"; };
+		9A2069AB0BF871B3B997A536349F073E /* MAUserLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAUserLocation.h; path = MAMapKit.framework/Headers/MAUserLocation.h; sourceTree = "<group>"; };
+		9ADB53D0F54FBE8D1B620BF05A827D81 /* WXMapInfoWindowComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXMapInfoWindowComponent.m; sourceTree = "<group>"; };
+		9B3A67A60149243265D0A5BDA64FBA99 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
+		9D0FEC15AEC6B6C8BBA5DDA982AB2C41 /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		9EDA254119A82BCE4324C3F4E1C70FF0 /* Pods-WeexDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeexDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9EF6102636E309D745780C12AC3A7B05 /* WXMapViewMarkerComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXMapViewMarkerComponent.h; sourceTree = "<group>"; };
+		9F10FCD9225CED838E83C23020D880C8 /* MAPolygonRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolygonRenderer.h; path = MAMapKit.framework/Headers/MAPolygonRenderer.h; sourceTree = "<group>"; };
+		A002081EAEA376CFD9AAF7019BABA223 /* MATouchPoi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATouchPoi.h; path = MAMapKit.framework/Headers/MATouchPoi.h; sourceTree = "<group>"; };
+		A057CB30207E44426367FD7A414888CB /* AMapURLSearchConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearchConfig.h; path = AMapFoundationKit.framework/Headers/AMapURLSearchConfig.h; sourceTree = "<group>"; };
+		A0F0679BC68ACF6C7467B27DD8D52958 /* WXMapRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXMapRenderer.m; sourceTree = "<group>"; };
+		A48041FE3F3EED9CDE75361C770E0DBF /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		A5473A776BC62C6F724FFB12FD356F58 /* MATileOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATileOverlayRenderer.h; path = MAMapKit.framework/Headers/MATileOverlayRenderer.h; sourceTree = "<group>"; };
+		A674D8F0C76A8F2C14485E33ED6124F8 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		A7F24E0769A2F731B33BAF189900702B /* MAOfflineItemCommonCity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItemCommonCity.h; path = MAMapKit.framework/Headers/MAOfflineItemCommonCity.h; sourceTree = "<group>"; };
+		A8A4F9B7D1701F8681F2108B1012FFF8 /* MACircleRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACircleRenderer.h; path = MAMapKit.framework/Headers/MACircleRenderer.h; sourceTree = "<group>"; };
+		A95C1C522637A5F9EDBE44F859A4E60B /* MAMultiPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiPolyline.h; path = MAMapKit.framework/Headers/MAMultiPolyline.h; sourceTree = "<group>"; };
+		A97149AA991580DD2E3F5DE2305A1B3A /* WXMapCircleComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXMapCircleComponent.m; sourceTree = "<group>"; };
+		AA465431D0A3237F4C97A46F31318A7E /* MAMapKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapKit.h; path = MAMapKit.framework/Headers/MAMapKit.h; sourceTree = "<group>"; };
+		AB8CC84D9645175022636C01E9375F20 /* MAGroundOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGroundOverlay.h; path = MAMapKit.framework/Headers/MAGroundOverlay.h; sourceTree = "<group>"; };
+		AC1E70D414CEA66B7AAE2E1FB6B07EF6 /* WXMapPolygonComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXMapPolygonComponent.m; sourceTree = "<group>"; };
+		AC47555AA34CAB2D6C20BAEED82AED66 /* MAPolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolylineRenderer.h; path = MAMapKit.framework/Headers/MAPolylineRenderer.h; sourceTree = "<group>"; };
+		ACD5605C48E4E2F6843223D91C84E17C /* MAConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAConfig.h; path = MAMapKit.framework/Headers/MAConfig.h; sourceTree = "<group>"; };
+		AED7FADBA45C22A18B550F9F6E975507 /* MAOverlayPathRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlayPathRenderer.h; path = MAMapKit.framework/Headers/MAOverlayPathRenderer.h; sourceTree = "<group>"; };
+		B07C39B26394F731ADBFBA25881BD6DB /* MAAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotationView.h; path = MAMapKit.framework/Headers/MAAnnotationView.h; sourceTree = "<group>"; };
+		B2C802ECE64D542A67BAE9B22E8C36A8 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		B3E4F4B7DE1118CD613DF4EA684CF0C9 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		B6349EE8E41DC54A050029C0C1C43D09 /* Pods-WeexUITestDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeexUITestDemo-dummy.m"; sourceTree = "<group>"; };
+		B736B288B064292B3E6D53BE75712107 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		B9712BB9307F1247C453F36752BBB672 /* MAOfflineItemNationWide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItemNationWide.h; path = MAMapKit.framework/Headers/MAOfflineItemNationWide.h; sourceTree = "<group>"; };
+		BCBFCA43B882AF97F957AB55C3D2CD36 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		C0228B0E29E483B83AE54E090CE55BA2 /* MAAnimatedAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnimatedAnnotation.h; path = MAMapKit.framework/Headers/MAAnimatedAnnotation.h; sourceTree = "<group>"; };
+		C12C2F8B692A5FA0D472821C0D6EDF8C /* NSArray+WXMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+WXMap.h"; sourceTree = "<group>"; };
+		C7CE29184AFFE6894EE38EA3DF286721 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		C85673C4A311AF49389AD23F427A66E2 /* WXMapRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXMapRenderer.h; sourceTree = "<group>"; };
+		CFDBC4F9B8026A2810CA2C4EC61140C6 /* WXConvert+AMapKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXConvert+AMapKit.m"; sourceTree = "<group>"; };
+		D2CF64E5F0A090072E12D613F7B23357 /* MAOfflineMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineMap.h; path = MAMapKit.framework/Headers/MAOfflineMap.h; sourceTree = "<group>"; };
+		D2F25E918FCCE1C483B98DF17286098F /* MAOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlayRenderer.h; path = MAMapKit.framework/Headers/MAOverlayRenderer.h; sourceTree = "<group>"; };
+		D34698960841F87CAD6E04A50DA262C9 /* libPods-WeexDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WeexDemo.a"; path = "libPods-WeexDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BA1A20BB9E5612D4621DEED305E393 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		D42FD6152E9C017D5A99D1EB079A5539 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		D63E4A6F1E590E656C2CD96512E324DF /* WeexPluginConfigParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeexPluginConfigParser.h; sourceTree = "<group>"; };
+		D7A62A84DB91A55081F9CF6E0F81259F /* Pods-WeexDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeexDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D88C886AF3F195AF2D97AFD89C6B7638 /* MATraceLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATraceLocation.h; path = MAMapKit.framework/Headers/MATraceLocation.h; sourceTree = "<group>"; };
+		DE883D65D9E127C03A1FF0A290661A1C /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		DF3ED534DF8508FE8BE1984B9B2DDA2F /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		DF830A90398E3B847443E8B7572A3E08 /* Pods-WeexUITestDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeexUITestDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		E07A6B946EBE1BD5A1BEBB0AF2276217 /* libPods-WeexUITestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WeexUITestDemo.a"; path = "libPods-WeexUITestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0974D58C0C3DBF2E9B9B622296B029D /* Pods-WeexDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeexDemo-frameworks.sh"; sourceTree = "<group>"; };
+		E271F5B87ED78FA6F37CEC22F39A307B /* main.js */ = {isa = PBXFileReference; includeInIndex = 1; name = main.js; path = WeexSDK.framework/main.js; sourceTree = "<group>"; };
+		E3ABC16603BF4CA01DC34DCB1FED5DEB /* MACircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACircle.h; path = MAMapKit.framework/Headers/MACircle.h; sourceTree = "<group>"; };
+		E416293699810B6AD1E651D92C62EBF8 /* Weexplugin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Weexplugin-prefix.pch"; sourceTree = "<group>"; };
+		E41F80DE6D83283F72BFE3AA51C303B7 /* MAMultiColoredPolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiColoredPolylineRenderer.h; path = MAMapKit.framework/Headers/MAMultiColoredPolylineRenderer.h; sourceTree = "<group>"; };
+		E63C5ECC3CC97B80B861BF72F5C9C0A6 /* MAMultiTexturePolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiTexturePolylineRenderer.h; path = MAMapKit.framework/Headers/MAMultiTexturePolylineRenderer.h; sourceTree = "<group>"; };
+		E7D654E7FAC9E51AAD8B008DA41204F1 /* Pods-WeexUITestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeexUITestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E8D08EC055E957A038C2879C799ED8E3 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		EBF9A11701DC6BA743FF052E192C9A86 /* WXMapViewModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXMapViewModule.h; sourceTree = "<group>"; };
+		ED481A16492F6CDDF40C17B7DDD39E73 /* NSDictionary+WXMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+WXMap.h"; sourceTree = "<group>"; };
+		EEB144D0D290B62E6935A1759742FA0F /* WXMapViewModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXMapViewModule.m; sourceTree = "<group>"; };
+		EFB1AC96F7B93B48B199F768D1CD937C /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		F208409C54C36F1F84B37890FAFAD007 /* NSDictionary+WXMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+WXMap.m"; sourceTree = "<group>"; };
+		F4E71311450073C6F7A0EBE289E4C3FD /* WXMapInfoWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXMapInfoWindow.m; sourceTree = "<group>"; };
+		F64A32EFECD973FAB4FF69EE37068FD5 /* MAShape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAShape.h; path = MAMapKit.framework/Headers/MAShape.h; sourceTree = "<group>"; };
+		F6AEA5C7CA727A4152E5CD3FDBF577E4 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "ATSDK.framework/Versions/A/Resources/zh-Hans.lproj"; sourceTree = "<group>"; };
+		F70C1DD4F301D61D501AF3ACF15B41DC /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		F740FDC4B351D9713432D0D93B344321 /* MAAnnotationMoveAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotationMoveAnimation.h; path = MAMapKit.framework/Headers/MAAnnotationMoveAnimation.h; sourceTree = "<group>"; };
+		F8AB679B5846794B710F80C9A2F722A0 /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		F934D54AB426EDC4C9FFCD661B935B22 /* NSString+WXMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+WXMap.m"; sourceTree = "<group>"; };
+		FA0BEBDFEDAD5AD69B608FC93FF71D9E /* NSArray+WXMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WXMap.m"; sourceTree = "<group>"; };
+		FD06FF22B236A9C2148AD901688D9D1D /* Pods-WeexDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeexDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE1CEF4EF9F61331B71EBFD9898B9605 /* MAHeatMapTileOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAHeatMapTileOverlay.h; path = MAMapKit.framework/Headers/MAHeatMapTileOverlay.h; sourceTree = "<group>"; };
+		FE3EE1424F1C47258D5B1C1D682D0967 /* Pods-WeexUITestDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeexUITestDemo-frameworks.sh"; sourceTree = "<group>"; };
+		FE52506DE71A263A7450026CCD54264B /* AMapURLSearchType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearchType.h; path = AMapFoundationKit.framework/Headers/AMapURLSearchType.h; sourceTree = "<group>"; };
+		FEFFFA783B825636162FAE33EB9CA342 /* MAPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolyline.h; path = MAMapKit.framework/Headers/MAPolyline.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F044FFD4C9D77F38998C245D0FB6BF3 /* Frameworks */ = {
+		123DE575B64CCC44480CDD27368515B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D611B423808E948313206D3B35B395BE /* Foundation.framework in Frameworks */,
+				F99850FCBEE962D5D90F57C811209567 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81016E5F25E12F9895D239B91ECB5EC1 /* Frameworks */ = {
+		78BB85074167C385CEED7F4631F6BE9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				806F5F28200EBC5778DB4BE16DD776E4 /* CFNetwork.framework in Frameworks */,
-				E773AE309A437F1421D9EEDC93D5B6A4 /* Foundation.framework in Frameworks */,
-				A1EF7D73C492B56E15625B8D0972C768 /* Security.framework in Frameworks */,
+				28248B67B7933D77D6B2CD09EB0A03B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6247401F3DE0AD7D2C3A90C1204D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF7E5F034F31ACDF704FBCF8A6920F4 /* Foundation.framework in Frameworks */,
+				1ED840E41E70CEBCF4DE2370E873A856 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8470F6719CA75818C1AA4BEA59EE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E681CAC7083A2B280764BCF2A1841C70 /* CFNetwork.framework in Frameworks */,
+				1BF22A22CFE99CFFD8300E6ECA53DAE6 /* Foundation.framework in Frameworks */,
+				655A31FC412E6CBA1E65AA2E6D0D6B8F /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D8CAD26E015755D94426F65D9ACD72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7170FB4C5B546F089DB8FE6F1AF16D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BBEDCA6C7BB1D1046AB651439E1A948 /* Support Files */ = {
+		0CAB51DE2606B9F905E08AECFD8E52FE /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				76E7814E2574EC5C3C8B662A1163925A /* SocketRocket.xcconfig */,
-				44FAF28D94FB165C5C776236072430BC /* SocketRocket-dummy.m */,
-				31ECEEFD1B8335C517AAF1EC2AC985FF /* SocketRocket-prefix.pch */,
+				CF7E74AB5A7FB0FD62EB167FAFD19918 /* Weexplugin */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SocketRocket";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+		0D96254B93B392538F3CCFC35272CD55 /* Pods-WeexDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D6D888213905F34217EF1880BE2758BA /* iOS */,
+				9EDA254119A82BCE4324C3F4E1C70FF0 /* Pods-WeexDemo-acknowledgements.markdown */,
+				FD06FF22B236A9C2148AD901688D9D1D /* Pods-WeexDemo-acknowledgements.plist */,
+				3C340CE81C3A4C8222F5687E66C00FB6 /* Pods-WeexDemo-dummy.m */,
+				E0974D58C0C3DBF2E9B9B622296B029D /* Pods-WeexDemo-frameworks.sh */,
+				3ED7B2DD1846F0DA353CBAAB646FC7B4 /* Pods-WeexDemo-resources.sh */,
+				D7A62A84DB91A55081F9CF6E0F81259F /* Pods-WeexDemo.debug.xcconfig */,
+				88F9583B145C706ABF836F7DD3BB6863 /* Pods-WeexDemo.release.xcconfig */,
+			);
+			name = "Pods-WeexDemo";
+			path = "Target Support Files/Pods-WeexDemo";
+			sourceTree = "<group>";
+		};
+		0FEC41D0070C4FB69CCCB661BA61C7E4 /* Pods-WeexUITestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				579AAF2E6A073116F78106208168BCCF /* Pods-WeexUITestDemo-acknowledgements.markdown */,
+				DF830A90398E3B847443E8B7572A3E08 /* Pods-WeexUITestDemo-acknowledgements.plist */,
+				B6349EE8E41DC54A050029C0C1C43D09 /* Pods-WeexUITestDemo-dummy.m */,
+				FE3EE1424F1C47258D5B1C1D682D0967 /* Pods-WeexUITestDemo-frameworks.sh */,
+				88C6B9D13A50A2E98C8489E11AB7596B /* Pods-WeexUITestDemo-resources.sh */,
+				8F86F9214E5CA2E9997709910FAEA699 /* Pods-WeexUITestDemo.debug.xcconfig */,
+				E7D654E7FAC9E51AAD8B008DA41204F1 /* Pods-WeexUITestDemo.release.xcconfig */,
+			);
+			name = "Pods-WeexUITestDemo";
+			path = "Target Support Files/Pods-WeexUITestDemo";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				183089B4ADC1B1E2FD50F90E2775F552 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		227E6136B215C8139E77E393829A8E82 /* Resources */ = {
+		183089B4ADC1B1E2FD50F90E2775F552 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C2B84A8240B13F8BA21BEF8C4CCB1DF6 /* main.js */,
-				383622EE54259838A43F61A5FB8B3A49 /* wx_load_error@3x.png */,
+				89EF1ADDBE153B3299871FDD8BDD6A38 /* CFNetwork.framework */,
+				3952BF2F287982A17A4D8B9F01F95D71 /* Foundation.framework */,
+				408D1ED9D79325C44ECAF57491E78809 /* ImageIO.framework */,
+				174B50DBEC7476F86B037EDE845950E2 /* Security.framework */,
 			);
-			name = Resources;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		2ACA75AC7E4BF805F933D5EC22B1574F /* Resources */ = {
+		21D30D1EC6F84297209BF166608798E9 /* Weexplugin */ = {
 			isa = PBXGroup;
 			children = (
-				BDED460E026A607EB26CE46AF616B4A8 /* AMap.bundle */,
+				248B955DDC53D466FF3C32C6CA250D3E /* Resources */,
 			);
-			name = Resources;
+			name = Weexplugin;
+			path = Weexplugin;
 			sourceTree = "<group>";
 		};
-		44B7523416844C1617585884DEA89C1B /* Frameworks */ = {
+		226DBA85ABA988459FBC9C107551B3CB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				948E882CDA0D4E4900BFC29B63E53A96 /* AMapFoundationKit.framework */,
+				EA0F957320D06EB8777AF6ADC8E2D734 /* AMap3DMap */,
+				7392D638840104AF92E78C67010705B8 /* AMapFoundation */,
+				5E5AA39821352F4AAC80897476FC7DD1 /* ATSDK-Weex */,
+				8AC0DFDE563D9709338A2B642E41D00C /* SDWebImage */,
+				9DAF844CA9AEDB248466FD03852E70D9 /* SocketRocket */,
+				593BEE03E4B487FF8AAFD05A8CAA738D /* WeexSDK */,
+				49553C23C579336546FB168FAE5E34D7 /* WXDevtool */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		248B955DDC53D466FF3C32C6CA250D3E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F9B6A47683894C51A66C883D9AE2105 /* WeexpluginConfig.xml */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C7A226A4EEF50CA4F45F13AC3610E12 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F0A71412A5D53D1C0B4DB1B08FB2ADFE /* WeexPlugin */,
+			);
+			name = Source;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		3E5AEA0470FB8A642CD60F3E4B748CE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D34698960841F87CAD6E04A50DA262C9 /* libPods-WeexDemo.a */,
+				E07A6B946EBE1BD5A1BEBB0AF2276217 /* libPods-WeexUITestDemo.a */,
+				84A95299C6A499ED1127785CED169447 /* libSDWebImage.a */,
+				38D68D5F400CB3E9333AAF1E2A3F6712 /* libSocketRocket.a */,
+				541A3D6370E681AFEDDE661940D27885 /* libWeexplugin.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4821C1489BA18128B72608860313D790 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0556F38BF3BE55325EBAD13254EB3BA3 /* WeexSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5E3016086381EBB1C02976950F2DB747 /* AMap3DMap */ = {
+		49553C23C579336546FB168FAE5E34D7 /* WXDevtool */ = {
 			isa = PBXGroup;
 			children = (
-				DAAE232530CDFC59C919484D41B463CF /* MAAnimatedAnnotation.h */,
-				596B0769F629EC568FAF01619944BFA3 /* MAAnnotation.h */,
-				A826C0A7705201DE0A7FB898911E459C /* MAAnnotationMoveAnimation.h */,
-				227EB2D8A8977478248E8B643C801436 /* MAAnnotationView.h */,
-				4C9461C12A42B6C61A7406EE7F90495F /* MACircle.h */,
-				681D26D412CF4F775C6A6A8EF8EF1484 /* MACircleRenderer.h */,
-				9EE0AF1159318630165884088327D1F0 /* MAConfig.h */,
-				3388DEEFF49E803893F21244D0F8EB46 /* MAGeodesicPolyline.h */,
-				1903F8C48EEE3266E12AD6906D4361DD /* MAGeometry.h */,
-				BF683BF7AC42E0A2F275F5009337F4A0 /* MAGroundOverlay.h */,
-				3854C9294C60A8D7EA97193DDAC83F69 /* MAGroundOverlayRenderer.h */,
-				73A4C38AF4F4DECDE175CA89D923DCC9 /* MAHeatMapTileOverlay.h */,
-				9B301C83D0AF9AF894F0630323B84237 /* MAIndoorInfo.h */,
-				5F1CC1F92A29D38B52BBBC285457E4EE /* MALineDrawType.h */,
-				F120AEFC813A43C1B9D3F7B99814D3A9 /* MAMapKit.h */,
-				89C4F1EBA8ABB6F05E5DEF77BF620D46 /* MAMapStatus.h */,
-				E163D6F5D598CF71AE6076E7A755FC5D /* MAMapVersion.h */,
-				4CF536CE2D5A1CA744A047097D12E7C6 /* MAMapView.h */,
-				8355A53C4B3D9AB8100C2D62B7273AA8 /* MAMultiColoredPolylineRenderer.h */,
-				A3DFFA16AFAF1A3A2C51F6CC35B7A097 /* MAMultiPoint.h */,
-				F001F553C3B7D9DB67CE78729A1A14D6 /* MAMultiPolyline.h */,
-				C7E9F1C105EEBEAABE5B616E9F363436 /* MAMultiTexturePolylineRenderer.h */,
-				ACAD4F4143BA6D4708AE94BD4F88B851 /* MAOfflineCity.h */,
-				68463FB5477F265900E6E05D204A817E /* MAOfflineItem.h */,
-				FF53A7BC5DB24BA08041CAB27F2A12E2 /* MAOfflineItemCommonCity.h */,
-				E2131F9EFDB89611E86E461B70D009C5 /* MAOfflineItemMunicipality.h */,
-				EA82484D33853DF06CED658347031A1B /* MAOfflineItemNationWide.h */,
-				B3F4A87103E8841E8A335DE499996837 /* MAOfflineMap.h */,
-				AF506D97AFBFAC2E29FFDF51CF21A6EA /* MAOfflineProvince.h */,
-				F4D905ABBBE33DCFB90765B318BCC44B /* MAOverlay.h */,
-				E08843A430FDD35169AE1A48329D5A3B /* MAOverlayPathRenderer.h */,
-				5B752B99A9DDC8B14E53722A487C3466 /* MAOverlayRenderer.h */,
-				03AB2B7660D1653929AD84DE5BA8D331 /* MAPinAnnotationView.h */,
-				1E448DFBECD775ED00B2E13051863801 /* MAPointAnnotation.h */,
-				6BE2B764F433811CD4D4DEB518B02B8F /* MAPolygon.h */,
-				253F46BEBD98CA1B5AAC50CD3495B0CD /* MAPolygonRenderer.h */,
-				7B53F1F1353B5EDBDE02C4F2A4FDCE91 /* MAPolyline.h */,
-				690854EA6A4FF768AFAEF996342687E7 /* MAPolylineRenderer.h */,
-				CBC17F3C20FFE2E2C460F80C8D59BD9B /* MAShape.h */,
-				CF904E02D87B7E1F08691FAA93611566 /* MATileOverlay.h */,
-				B09F04951686798EFACF284E4687CD95 /* MATileOverlayRenderer.h */,
-				DC8319F2EC2BBD2A12617CDCAD81B0AC /* MATouchPoi.h */,
-				475A471999BFF1D3CE9DF6BE1F89FBA6 /* MATraceLocation.h */,
-				76027021F32731CEBAC9634020B20772 /* MATraceManager.h */,
-				31AB58CD139D68FE2F1ECC2D157575A7 /* MAUserLocation.h */,
-				30230BC2AB61355B3532C4016ED732D9 /* MAUserLocationRepresentation.h */,
-				8DF78EF47226016568203F9BEB5A53D0 /* Frameworks */,
-				2ACA75AC7E4BF805F933D5EC22B1574F /* Resources */,
+				68603FDCFEBB4CB0F13E88C7402DBD86 /* Frameworks */,
 			);
-			name = AMap3DMap;
-			path = AMap3DMap;
+			name = WXDevtool;
+			path = WXDevtool;
 			sourceTree = "<group>";
 		};
-		641E1D9966815EFE6109CC28D5EC83EE /* WeexSDK */ = {
+		4977DD42351B932FF04654EB28A59A4E /* Weexplugin */ = {
 			isa = PBXGroup;
 			children = (
-				7166F28C6517E355BF20869955DFAC0E /* Frameworks */,
-				227E6136B215C8139E77E393829A8E82 /* Resources */,
+				5169705E4C6B4FAA2E2617CBC04D9B13 /* Weexplugin.h */,
+				FE68D2D44D85B1FCC0701F3828CBD518 /* Plugins */,
+				3C7A226A4EEF50CA4F45F13AC3610E12 /* Source */,
+			);
+			name = Weexplugin;
+			path = Weexplugin;
+			sourceTree = "<group>";
+		};
+		593BEE03E4B487FF8AAFD05A8CAA738D /* WeexSDK */ = {
+			isa = PBXGroup;
+			children = (
+				4821C1489BA18128B72608860313D790 /* Frameworks */,
+				7B77A697CF4D3F90AAF35F9B197871E5 /* Resources */,
 			);
 			name = WeexSDK;
 			path = WeexSDK;
 			sourceTree = "<group>";
 		};
-		69D960B6AE0385D4D042650B69DD0E9D /* SocketRocket */ = {
+		5E5AA39821352F4AAC80897476FC7DD1 /* ATSDK-Weex */ = {
 			isa = PBXGroup;
 			children = (
-				530F86642D7B178EB5004AEEBFA030C5 /* SocketRocket.h */,
-				837173DE3C8FA0E98C483290592634E2 /* SRWebSocket.h */,
-				990BA9A8508B5C663FAC50904749A1D4 /* SRWebSocket.m */,
-				0BBEDCA6C7BB1D1046AB651439E1A948 /* Support Files */,
+				A6E1ECF41FAB007F6DE9B6E082081F7C /* Frameworks */,
+				CE45E999D1BCEED87872BC332E1C54CE /* Resources */,
 			);
-			name = SocketRocket;
-			path = SocketRocket;
+			name = "ATSDK-Weex";
+			path = "ATSDK-Weex";
 			sourceTree = "<group>";
 		};
-		7166F28C6517E355BF20869955DFAC0E /* Frameworks */ = {
+		66390F27B7C2BBBE4868EA6CA3A502A5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F08A24F2A146B94C6A18C843A7BD08A5 /* WeexSDK.framework */,
+				21D30D1EC6F84297209BF166608798E9 /* Weexplugin */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		68603FDCFEBB4CB0F13E88C7402DBD86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A7ACBB1D61F3CF9C91B3670ED7BE339 /* TBWXDevTool.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68742AD3E9F81439BADA6D8B804B88A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CA05F3CA74365321C172CC066F56BFB /* MAMapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7392D638840104AF92E78C67010705B8 /* AMapFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				69DE0FD4C256BBCC896D39525BF68BDA /* AMapFoundationKit.h */,
+				14E07E47628114FD62A1C8FC369D5C62 /* AMapFoundationVersion.h */,
+				4A8FBF71EEB6DC51068ECC4F9B134640 /* AMapServices.h */,
+				6EDFD89865575A340DD482176BE89E3E /* AMapURLSearch.h */,
+				A057CB30207E44426367FD7A414888CB /* AMapURLSearchConfig.h */,
+				FE52506DE71A263A7450026CCD54264B /* AMapURLSearchType.h */,
+				6766554A478A05BC826E47F37531EC3B /* AMapUtility.h */,
+				D20F5F862842B388A31AA16A7C13A5F7 /* Frameworks */,
+			);
+			name = AMapFoundation;
+			path = AMapFoundation;
+			sourceTree = "<group>";
+		};
+		74EE90A618366941A0DFF057EA584FDE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D00B0D4FE79DB6ED38EAA62DA301F88 /* SocketRocket.xcconfig */,
+				1A1CCA6DA1ED3E879F74D8EE18C33333 /* SocketRocket-dummy.m */,
+				F8AB679B5846794B710F80C9A2F722A0 /* SocketRocket-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		7B77A697CF4D3F90AAF35F9B197871E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E271F5B87ED78FA6F37CEC22F39A307B /* main.js */,
+				4B2701A948ED5B12739AE961D9CE7FE0 /* wx_load_error@3x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				EF1B37F81EE3351B6FD7EA4941323967 /* Pods */,
-				BD3611AB8ABA808066241759F5E32A4A /* Products */,
-				D36E34310B4D258AF752C0B1AA463D3E /* Targets Support Files */,
+				0CAB51DE2606B9F905E08AECFD8E52FE /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				226DBA85ABA988459FBC9C107551B3CB /* Pods */,
+				3E5AEA0470FB8A642CD60F3E4B748CE4 /* Products */,
+				8EA628DCC4D67512EC3E4818F1F5A864 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8DF78EF47226016568203F9BEB5A53D0 /* Frameworks */ = {
+		87A0BF6BEF3A41B832D4BF42ADEC6896 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3B7D28AE3EC913BDAF536F4ABFC14141 /* MAMapKit.framework */,
+				0FDD38496AA49AF89A5CB311E6355D9C /* Weexplugin.xcconfig */,
+				6138A5D7ED10148415D13D950A0E82CC /* Weexplugin-dummy.m */,
+				E416293699810B6AD1E651D92C62EBF8 /* Weexplugin-prefix.pch */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Pods/Target Support Files/Weexplugin";
 			sourceTree = "<group>";
 		};
-		BD3611AB8ABA808066241759F5E32A4A /* Products */ = {
+		8AC0DFDE563D9709338A2B642E41D00C /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
-				C8AB3C5D382519C10B7A0518B0BF9C06 /* libPods-Weexplugin.a */,
-				7E62A9BD63BC1DC15511BE9E61B12166 /* libSocketRocket.a */,
+				9735D80A29A824B3526B81A554E0821F /* Core */,
+				9679BCA13AB1BDCF97E63CE4F4615BDD /* Support Files */,
 			);
-			name = Products;
+			name = SDWebImage;
+			path = SDWebImage;
 			sourceTree = "<group>";
 		};
-		BE75583A13800A839E5037E73632221B /* AMapFoundation */ = {
+		8EA628DCC4D67512EC3E4818F1F5A864 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				94E3D78DDD34071CCF158F8221ED4364 /* AMapFoundationKit.h */,
-				C4BB700FD2C3DE1B57A480911A2ABE0D /* AMapFoundationVersion.h */,
-				BE0F6BA231894A48FC160F7216DAB0CD /* AMapServices.h */,
-				7229D104890E57D7217BD2443DB5CB6C /* AMapURLSearch.h */,
-				18BAB9BAAFB2D73F95619A78ADC50172 /* AMapURLSearchConfig.h */,
-				DE39D1F185F96977A55177B95FC369B2 /* AMapURLSearchType.h */,
-				37F3A1F4741704EE81BBB573CF308809 /* AMapUtility.h */,
-				44B7523416844C1617585884DEA89C1B /* Frameworks */,
-			);
-			name = AMapFoundation;
-			path = AMapFoundation;
-			sourceTree = "<group>";
-		};
-		D36E34310B4D258AF752C0B1AA463D3E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FAFB9C8110941FA83429A10FD2CAC377 /* Pods-Weexplugin */,
+				0D96254B93B392538F3CCFC35272CD55 /* Pods-WeexDemo */,
+				0FEC41D0070C4FB69CCCB661BA61C7E4 /* Pods-WeexUITestDemo */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D6D888213905F34217EF1880BE2758BA /* iOS */ = {
+		9679BCA13AB1BDCF97E63CE4F4615BDD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A847C3B26F9C9E99A5ACEACF501F86DD /* CFNetwork.framework */,
-				9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */,
-				50F6DD994291AA39A94BEECAFAF0D785 /* Security.framework */,
+				9B3A67A60149243265D0A5BDA64FBA99 /* SDWebImage.xcconfig */,
+				15D06664DF5F72F4330F95022CC32666 /* SDWebImage-dummy.m */,
+				4C5E67FC01490E28CFCBD13EBC0EA27B /* SDWebImage-prefix.pch */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImage";
 			sourceTree = "<group>";
 		};
-		EF1B37F81EE3351B6FD7EA4941323967 /* Pods */ = {
+		9735D80A29A824B3526B81A554E0821F /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				5E3016086381EBB1C02976950F2DB747 /* AMap3DMap */,
-				BE75583A13800A839E5037E73632221B /* AMapFoundation */,
-				69D960B6AE0385D4D042650B69DD0E9D /* SocketRocket */,
-				641E1D9966815EFE6109CC28D5EC83EE /* WeexSDK */,
+				B2C802ECE64D542A67BAE9B22E8C36A8 /* NSData+ImageContentType.h */,
+				F70C1DD4F301D61D501AF3ACF15B41DC /* NSData+ImageContentType.m */,
+				5E848968F471400898E3D613A38DD0E1 /* SDImageCache.h */,
+				2B99044EB8D34259610BFBBCEB0A6937 /* SDImageCache.m */,
+				460C2B6A3F763937441C7EDB331FF149 /* SDWebImageCompat.h */,
+				783F07F81EE7D7A1FC9D30DB50FC8FBE /* SDWebImageCompat.m */,
+				7692355C9D38B03EBFDD7175E00EBFBB /* SDWebImageDecoder.h */,
+				98CC4E8EA6496EF677313657B4F59C3E /* SDWebImageDecoder.m */,
+				3ACBD07B606CD125A92837C93F301BF0 /* SDWebImageDownloader.h */,
+				2D71FC9D0195785A9490C3A88ECDF787 /* SDWebImageDownloader.m */,
+				E8D08EC055E957A038C2879C799ED8E3 /* SDWebImageDownloaderOperation.h */,
+				480C92A9C5404FD679E2A5E54FA8EF87 /* SDWebImageDownloaderOperation.m */,
+				4B07E78BCC933F0CDB243322991FB636 /* SDWebImageManager.h */,
+				EFB1AC96F7B93B48B199F768D1CD937C /* SDWebImageManager.m */,
+				B736B288B064292B3E6D53BE75712107 /* SDWebImageOperation.h */,
+				B3E4F4B7DE1118CD613DF4EA684CF0C9 /* SDWebImagePrefetcher.h */,
+				DE883D65D9E127C03A1FF0A290661A1C /* SDWebImagePrefetcher.m */,
+				360D3CA3ADC9649E0E9EEA782523D497 /* UIButton+WebCache.h */,
+				A674D8F0C76A8F2C14485E33ED6124F8 /* UIButton+WebCache.m */,
+				2063AF8AC6233553402E0DF1223A2CFD /* UIImage+GIF.h */,
+				D3BA1A20BB9E5612D4621DEED305E393 /* UIImage+GIF.m */,
+				DF3ED534DF8508FE8BE1984B9B2DDA2F /* UIImage+MultiFormat.h */,
+				9737C9726921B6B32FF8B6A5B21DED2E /* UIImage+MultiFormat.m */,
+				D42FD6152E9C017D5A99D1EB079A5539 /* UIImageView+HighlightedWebCache.h */,
+				4AB234FE653F1663190074DCC5AF3C14 /* UIImageView+HighlightedWebCache.m */,
+				C7CE29184AFFE6894EE38EA3DF286721 /* UIImageView+WebCache.h */,
+				72D1B827BCA6ED55A7EF1D7F414FFED7 /* UIImageView+WebCache.m */,
+				6EE609AB444F493B76E092FA76E85E20 /* UIView+WebCacheOperation.h */,
+				BCBFCA43B882AF97F957AB55C3D2CD36 /* UIView+WebCacheOperation.m */,
 			);
-			name = Pods;
+			name = Core;
 			sourceTree = "<group>";
 		};
-		FAFB9C8110941FA83429A10FD2CAC377 /* Pods-Weexplugin */ = {
+		992830ADB86782DDA039CAD3E1AC9C2E /* weex-amap */ = {
 			isa = PBXGroup;
 			children = (
-				3BDE047FCA03C4E58200EDDEBDB557B1 /* Pods-Weexplugin-acknowledgements.markdown */,
-				0D92EDA68B8F22B05CCCE8822D238E23 /* Pods-Weexplugin-acknowledgements.plist */,
-				745D2E4149FC607E3E180FF8BA438ED8 /* Pods-Weexplugin-dummy.m */,
-				3468821DC8E8B43040B0D1E92DCBF773 /* Pods-Weexplugin-resources.sh */,
-				33DA445E963E9F0F92C473DE986CB466 /* Pods-Weexplugin.debug.xcconfig */,
-				F68783DD793C5245AF701D3C821AF4DD /* Pods-Weexplugin.release.xcconfig */,
+				C12C2F8B692A5FA0D472821C0D6EDF8C /* NSArray+WXMap.h */,
+				FA0BEBDFEDAD5AD69B608FC93FF71D9E /* NSArray+WXMap.m */,
+				ED481A16492F6CDDF40C17B7DDD39E73 /* NSDictionary+WXMap.h */,
+				F208409C54C36F1F84B37890FAFAD007 /* NSDictionary+WXMap.m */,
+				5524C10E5F53169BC5A1F047F55686FD /* NSString+WXMap.h */,
+				F934D54AB426EDC4C9FFCD661B935B22 /* NSString+WXMap.m */,
+				90F297A505949C5749D3BACA55A31E89 /* WXConvert+AMapKit.h */,
+				CFDBC4F9B8026A2810CA2C4EC61140C6 /* WXConvert+AMapKit.m */,
+				611EF12F72C58D76C4C9FD0C56449DF8 /* WXMapCircleComponent.h */,
+				A97149AA991580DD2E3F5DE2305A1B3A /* WXMapCircleComponent.m */,
+				4DD52FDB9A115BE92EB5A8392E06D4F6 /* WXMapInfoWindow.h */,
+				F4E71311450073C6F7A0EBE289E4C3FD /* WXMapInfoWindow.m */,
+				3F60CABC1B323683049DF991F6F6F3D2 /* WXMapInfoWindowComponent.h */,
+				9ADB53D0F54FBE8D1B620BF05A827D81 /* WXMapInfoWindowComponent.m */,
+				13282AD84C96CDBEFDA73F18D06ADBFB /* WXMapPolygonComponent.h */,
+				AC1E70D414CEA66B7AAE2E1FB6B07EF6 /* WXMapPolygonComponent.m */,
+				3B3D4048FD0C6C7C27454471775C8173 /* WXMapPolylineComponent.h */,
+				998D63B816D6D6493EB51962DFE9C285 /* WXMapPolylineComponent.m */,
+				C85673C4A311AF49389AD23F427A66E2 /* WXMapRenderer.h */,
+				A0F0679BC68ACF6C7467B27DD8D52958 /* WXMapRenderer.m */,
+				3FFA42BAB324C2C1EB151F602B8BDE09 /* WXMapViewComponent.h */,
+				43E1284DFCA73E761356C8574171EF4B /* WXMapViewComponent.m */,
+				9EF6102636E309D745780C12AC3A7B05 /* WXMapViewMarkerComponent.h */,
+				1E79A6AA9242252D3EAD9C4C1FAAF62F /* WXMapViewMarkerComponent.m */,
+				EBF9A11701DC6BA743FF052E192C9A86 /* WXMapViewModule.h */,
+				EEB144D0D290B62E6935A1759742FA0F /* WXMapViewModule.m */,
 			);
-			name = "Pods-Weexplugin";
-			path = "Target Support Files/Pods-Weexplugin";
+			name = "weex-amap";
+			path = "weex-amap";
+			sourceTree = "<group>";
+		};
+		9DAF844CA9AEDB248466FD03852E70D9 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				9D0FEC15AEC6B6C8BBA5DDA982AB2C41 /* SRWebSocket.h */,
+				A48041FE3F3EED9CDE75361C770E0DBF /* SRWebSocket.m */,
+				74EE90A618366941A0DFF057EA584FDE /* Support Files */,
+			);
+			name = SocketRocket;
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		A6E1ECF41FAB007F6DE9B6E082081F7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				941BCDE52BD0DAC0D2AA894305C6EACE /* ATSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDD6C503AF03DAB7EC8AE60F469C4DAA /* weex-adapter-image */ = {
+			isa = PBXGroup;
+			children = (
+				807020D1755EC73276290D5E977D822C /* WXImgLoaderImpl.h */,
+				33EBA73183534628867C41DCBF7DF608 /* WXImgLoaderImpl.m */,
+			);
+			name = "weex-adapter-image";
+			path = "weex-adapter-image";
+			sourceTree = "<group>";
+		};
+		C093104B4A91EED26B9DF0664348519B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A8BCC8028AEEA70F2280E396A0A0FBF /* AMap.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CE45E999D1BCEED87872BC332E1C54CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30774D5D3777EAA31B3C8FB7C8777425 /* ATSDK.bundle */,
+				99004BCA41FAA286F99305C15AC5D77B /* en.lproj */,
+				F6AEA5C7CA727A4152E5CD3FDBF577E4 /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF7E74AB5A7FB0FD62EB167FAFD19918 /* Weexplugin */ = {
+			isa = PBXGroup;
+			children = (
+				66390F27B7C2BBBE4868EA6CA3A502A5 /* Resources */,
+				87A0BF6BEF3A41B832D4BF42ADEC6896 /* Support Files */,
+				4977DD42351B932FF04654EB28A59A4E /* Weexplugin */,
+			);
+			name = Weexplugin;
+			path = ../Weexplugin;
+			sourceTree = "<group>";
+		};
+		D20F5F862842B388A31AA16A7C13A5F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				527DEEA66459DD46DA9F035AA684B117 /* AMapFoundationKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA0F957320D06EB8777AF6ADC8E2D734 /* AMap3DMap */ = {
+			isa = PBXGroup;
+			children = (
+				C0228B0E29E483B83AE54E090CE55BA2 /* MAAnimatedAnnotation.h */,
+				8838D5BC9B83F73665B83059AE76DBEA /* MAAnnotation.h */,
+				F740FDC4B351D9713432D0D93B344321 /* MAAnnotationMoveAnimation.h */,
+				B07C39B26394F731ADBFBA25881BD6DB /* MAAnnotationView.h */,
+				E3ABC16603BF4CA01DC34DCB1FED5DEB /* MACircle.h */,
+				A8A4F9B7D1701F8681F2108B1012FFF8 /* MACircleRenderer.h */,
+				ACD5605C48E4E2F6843223D91C84E17C /* MAConfig.h */,
+				8843BE1ECE4A96D49FC82324430099AB /* MAGeodesicPolyline.h */,
+				233366932F8547F150B918878EFC311F /* MAGeometry.h */,
+				AB8CC84D9645175022636C01E9375F20 /* MAGroundOverlay.h */,
+				8513F088C00F9E14293FB6163278BBBF /* MAGroundOverlayRenderer.h */,
+				FE1CEF4EF9F61331B71EBFD9898B9605 /* MAHeatMapTileOverlay.h */,
+				7B8D504C2FA470B89F5DA08A20C99671 /* MAIndoorInfo.h */,
+				852ECF64FC544E35A56BA439F3A205A7 /* MALineDrawType.h */,
+				AA465431D0A3237F4C97A46F31318A7E /* MAMapKit.h */,
+				15FA8D1A2781EA84118E92852CCF7E0B /* MAMapStatus.h */,
+				294D69C9873BB56C75C7BE4CC3BED1EE /* MAMapVersion.h */,
+				0E9AD3A52339BD3E473C4643F829C69B /* MAMapView.h */,
+				E41F80DE6D83283F72BFE3AA51C303B7 /* MAMultiColoredPolylineRenderer.h */,
+				0013512E8ADBEB133207793FA28ABBFF /* MAMultiPoint.h */,
+				A95C1C522637A5F9EDBE44F859A4E60B /* MAMultiPolyline.h */,
+				E63C5ECC3CC97B80B861BF72F5C9C0A6 /* MAMultiTexturePolylineRenderer.h */,
+				305D51F22758ACEE59FA12ED609172E3 /* MAOfflineCity.h */,
+				6C544662CE084E73BDD43DB62F3E75B3 /* MAOfflineItem.h */,
+				A7F24E0769A2F731B33BAF189900702B /* MAOfflineItemCommonCity.h */,
+				8E29E9228E58955A3BD8E707DCCA0D55 /* MAOfflineItemMunicipality.h */,
+				B9712BB9307F1247C453F36752BBB672 /* MAOfflineItemNationWide.h */,
+				D2CF64E5F0A090072E12D613F7B23357 /* MAOfflineMap.h */,
+				3283E89CC78AAF82A96E560EA6320FD0 /* MAOfflineProvince.h */,
+				1574D91B7CD552E61948E097A2B0BD66 /* MAOverlay.h */,
+				AED7FADBA45C22A18B550F9F6E975507 /* MAOverlayPathRenderer.h */,
+				D2F25E918FCCE1C483B98DF17286098F /* MAOverlayRenderer.h */,
+				994070BE3A80D03A89ADE5434C3395E3 /* MAPinAnnotationView.h */,
+				641119A7298C6A04928ACA6E7E7FD739 /* MAPointAnnotation.h */,
+				3290C74BC567BBFDB0FB2A2A9F0D51D2 /* MAPolygon.h */,
+				9F10FCD9225CED838E83C23020D880C8 /* MAPolygonRenderer.h */,
+				FEFFFA783B825636162FAE33EB9CA342 /* MAPolyline.h */,
+				AC47555AA34CAB2D6C20BAEED82AED66 /* MAPolylineRenderer.h */,
+				F64A32EFECD973FAB4FF69EE37068FD5 /* MAShape.h */,
+				1EAA500BD6768C7A8A4325171EA826AD /* MATileOverlay.h */,
+				A5473A776BC62C6F724FFB12FD356F58 /* MATileOverlayRenderer.h */,
+				A002081EAEA376CFD9AAF7019BABA223 /* MATouchPoi.h */,
+				D88C886AF3F195AF2D97AFD89C6B7638 /* MATraceLocation.h */,
+				3EB50F83852BE37E0B0233BEBE408C58 /* MATraceManager.h */,
+				9A2069AB0BF871B3B997A536349F073E /* MAUserLocation.h */,
+				4753112342400ECA60AB0DEABA1CE14B /* MAUserLocationRepresentation.h */,
+				68742AD3E9F81439BADA6D8B804B88A6 /* Frameworks */,
+				C093104B4A91EED26B9DF0664348519B /* Resources */,
+			);
+			name = AMap3DMap;
+			path = AMap3DMap;
+			sourceTree = "<group>";
+		};
+		F0A71412A5D53D1C0B4DB1B08FB2ADFE /* WeexPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				D63E4A6F1E590E656C2CD96512E324DF /* WeexPluginConfigParser.h */,
+				0611F1D349CF105E2725A4E75CE46E63 /* WeexPluginConfigParser.m */,
+				1452E6B84B46C334F4F69A1CF65C14C0 /* WeexPluginLoader.h */,
+				04A085EBC1D20F46A689A4FDCF1196E2 /* WeexPluginLoader.m */,
+				3293EF997F78401382A22D183FC161BF /* WeexPluginManager.h */,
+				928FDF973CED6BCCCDDE7CE753EDEFA3 /* WeexPluginManager.m */,
+			);
+			name = WeexPlugin;
+			path = WeexPlugin;
+			sourceTree = "<group>";
+		};
+		FE68D2D44D85B1FCC0701F3828CBD518 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				BDD6C503AF03DAB7EC8AE60F469C4DAA /* weex-adapter-image */,
+				992830ADB86782DDA039CAD3E1AC9C2E /* weex-amap */,
+			);
+			name = Plugins;
+			path = Plugins;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		FA384D0C42B45D81D04860B2670C3FDC /* Headers */ = {
+		0374190972CC9E40560D1333FF5CCB35 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				528454751913F8C6E5A3B1622C58DB36 /* SocketRocket.h in Headers */,
-				B12ED63C8FD3C116BEFCF8FFAE1B192B /* SRWebSocket.h in Headers */,
+				2B842C94DE4B3EBC498D515300DF5A2B /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AA0B24CE6FEDBF33B1D9092AEDB1D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0230F6257F8632DFC03DF525A8A53DC /* NSArray+WXMap.h in Headers */,
+				FEB4C150B485893B7EB5577CA45081FE /* NSDictionary+WXMap.h in Headers */,
+				1B2AB0F1DFE81F884713F3D7287D1DFE /* NSString+WXMap.h in Headers */,
+				C37C3F9CDE1855B30AFB090904CC6624 /* Weexplugin.h in Headers */,
+				ADE8ACC557E26EF3CA11E3A0FE96C5D6 /* WeexPluginConfigParser.h in Headers */,
+				4AE8A24D7209D1A2E12C3376A834BA7E /* WeexPluginLoader.h in Headers */,
+				7DF6F74AD02B8AC7EE557BFCFE020A3A /* WeexPluginManager.h in Headers */,
+				A2871DA48F5FE3B31FCF0CA3DF876B55 /* WXConvert+AMapKit.h in Headers */,
+				2D193137E3F84275D3B825B7D9DF034F /* WXImgLoaderImpl.h in Headers */,
+				530864EE67916E5FFFAFDB72ED7872E4 /* WXMapCircleComponent.h in Headers */,
+				8F5D0D15F3A62A6A85AAE057C4E9A528 /* WXMapInfoWindow.h in Headers */,
+				2B30D14523BA10836F859A4CE549D961 /* WXMapInfoWindowComponent.h in Headers */,
+				00297FE86D8F62AB224C121F39BF46A3 /* WXMapPolygonComponent.h in Headers */,
+				9767BB5F296B0BC5A81A1768C1CAE567 /* WXMapPolylineComponent.h in Headers */,
+				8E394FC6B576DC15AE4FDF9A32B101EB /* WXMapRenderer.h in Headers */,
+				39B4EDD347E74401F79CD045EEA5D8A6 /* WXMapViewComponent.h in Headers */,
+				F989CFA7F50ED24FAF0293CC6B1B27B5 /* WXMapViewMarkerComponent.h in Headers */,
+				819E221CFD7750681D5C8DB00FDE2C2F /* WXMapViewModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B9165C4DB40845DC73AB4EB035B777 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED8622667CF2440D682E9634E6126DB /* NSData+ImageContentType.h in Headers */,
+				6DC362003EAB1E63E2934B284470DE01 /* SDImageCache.h in Headers */,
+				C941FC582B89FFF823F166DEF028F69A /* SDWebImageCompat.h in Headers */,
+				905382AC7880F0299A558B97CD0D666D /* SDWebImageDecoder.h in Headers */,
+				6C818C7A02AA328124696F6F902C43D5 /* SDWebImageDownloader.h in Headers */,
+				63DC646ED8F9AAA9A635442677D478C8 /* SDWebImageDownloaderOperation.h in Headers */,
+				C418A1C249DE7BFD1B84E8FAC357FDFC /* SDWebImageManager.h in Headers */,
+				8516969C9F72BA6CB97EAE9DCFC2397F /* SDWebImageOperation.h in Headers */,
+				B7D4AC3214F4E9991E14EC81E54E2920 /* SDWebImagePrefetcher.h in Headers */,
+				BBC55DF0016DBC7D0254F5A3A041358A /* UIButton+WebCache.h in Headers */,
+				406414C9C3DD6EAC68BD0C12711A6814 /* UIImage+GIF.h in Headers */,
+				09B9B597F577C7DF113AAFC6363284F9 /* UIImage+MultiFormat.h in Headers */,
+				4F20F12F310FCD3F89F15213DC08B4DA /* UIImageView+HighlightedWebCache.h in Headers */,
+				0A4AD7804D73770134577B5208DA0A28 /* UIImageView+WebCache.h in Headers */,
+				2E1110D39AFE7AC9816E8549A92A7D5F /* UIView+WebCacheOperation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		25EC34590D7247F93E67F5816A03ADE0 /* Pods-Weexplugin */ = {
+		11D4598DC20954642F8668EE5F2A4296 /* Weexplugin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C549111632175C156CFBB74521D95D46 /* Build configuration list for PBXNativeTarget "Pods-Weexplugin" */;
+			buildConfigurationList = C8145740C3453D111EB7AB8133603E6F /* Build configuration list for PBXNativeTarget "Weexplugin" */;
 			buildPhases = (
-				2A043DD3A1181BD76815AA0AE5969CC6 /* Sources */,
-				3F044FFD4C9D77F38998C245D0FB6BF3 /* Frameworks */,
+				F0CE272669F7ADD75CB33D16E04DE95E /* Sources */,
+				78BB85074167C385CEED7F4631F6BE9E /* Frameworks */,
+				39AA0B24CE6FEDBF33B1D9092AEDB1D8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7E2F983E2F0C429310D8D52C00BCB105 /* PBXTargetDependency */,
+				012214C5D0276CD8BC0EFE6F56EFA84A /* PBXTargetDependency */,
 			);
-			name = "Pods-Weexplugin";
-			productName = "Pods-Weexplugin";
-			productReference = C8AB3C5D382519C10B7A0518B0BF9C06 /* libPods-Weexplugin.a */;
+			name = Weexplugin;
+			productName = Weexplugin;
+			productReference = 541A3D6370E681AFEDDE661940D27885 /* libWeexplugin.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		E845039B2C5025B9C98F10244E1E3D43 /* SocketRocket */ = {
+		31DE895CBC97CB105992177E7D564116 /* SocketRocket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F52E534A07B7BB19051541C4373144BB /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildConfigurationList = 6C7E3F4C851712F98B2F18588B1FB48E /* Build configuration list for PBXNativeTarget "SocketRocket" */;
 			buildPhases = (
-				3D3B8435F96DEDAF78F2A72CDC3C0EB5 /* Sources */,
-				81016E5F25E12F9895D239B91ECB5EC1 /* Frameworks */,
-				FA384D0C42B45D81D04860B2670C3FDC /* Headers */,
+				FCD5EAD6C28B4C34314D72E3A3401D90 /* Sources */,
+				DF8470F6719CA75818C1AA4BEA59EE53 /* Frameworks */,
+				0374190972CC9E40560D1333FF5CCB35 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -393,7 +934,62 @@
 			);
 			name = SocketRocket;
 			productName = SocketRocket;
-			productReference = 7E62A9BD63BC1DC15511BE9E61B12166 /* libSocketRocket.a */;
+			productReference = 38D68D5F400CB3E9333AAF1E2A3F6712 /* libSocketRocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6B9EE9878C96119478703E62A800B840 /* SDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B75DA04908520F7420CD089E232255 /* Build configuration list for PBXNativeTarget "SDWebImage" */;
+			buildPhases = (
+				A3206F447C1A4878DD4F9B8F15EB9FFC /* Sources */,
+				8E6247401F3DE0AD7D2C3A90C1204D79 /* Frameworks */,
+				D2B9165C4DB40845DC73AB4EB035B777 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebImage;
+			productName = SDWebImage;
+			productReference = 84A95299C6A499ED1127785CED169447 /* libSDWebImage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AB6895E88AD118D86AA917D6B9FC2907 /* Pods-WeexDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8A67C8A8F64440B1EF0A42DA6E1D41 /* Build configuration list for PBXNativeTarget "Pods-WeexDemo" */;
+			buildPhases = (
+				B886EA12720E779540D7516EC451B657 /* Sources */,
+				F3D8CAD26E015755D94426F65D9ACD72 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F503BC1E2A83F271435FDDA3C477A46 /* PBXTargetDependency */,
+				C01A024F0D1F4C2B58B5412371372DDF /* PBXTargetDependency */,
+				D1B119B0128DC7DD17CFA5E48B50E7CE /* PBXTargetDependency */,
+			);
+			name = "Pods-WeexDemo";
+			productName = "Pods-WeexDemo";
+			productReference = D34698960841F87CAD6E04A50DA262C9 /* libPods-WeexDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AF4BA2709FB6DDA6A34309542642EF1F /* Pods-WeexUITestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59ACE86284DD07AA71599EC3D9607DDF /* Build configuration list for PBXNativeTarget "Pods-WeexUITestDemo" */;
+			buildPhases = (
+				431B83E76CC50C53E101C682315391E1 /* Sources */,
+				123DE575B64CCC44480CDD27368515B3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD75B89A5262958C3420BE16D21CBF41 /* PBXTargetDependency */,
+				DD8F48E25AFD7D16786A8B8C5544A326 /* PBXTargetDependency */,
+				AF7823843F65AC10C984955C8418D410 /* PBXTargetDependency */,
+			);
+			name = "Pods-WeexUITestDemo";
+			productName = "Pods-WeexUITestDemo";
+			productReference = E07A6B946EBE1BD5A1BEBB0AF2276217 /* libPods-WeexUITestDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -413,51 +1009,190 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BD3611AB8ABA808066241759F5E32A4A /* Products */;
+			productRefGroup = 3E5AEA0470FB8A642CD60F3E4B748CE4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				25EC34590D7247F93E67F5816A03ADE0 /* Pods-Weexplugin */,
-				E845039B2C5025B9C98F10244E1E3D43 /* SocketRocket */,
+				AB6895E88AD118D86AA917D6B9FC2907 /* Pods-WeexDemo */,
+				AF4BA2709FB6DDA6A34309542642EF1F /* Pods-WeexUITestDemo */,
+				6B9EE9878C96119478703E62A800B840 /* SDWebImage */,
+				31DE895CBC97CB105992177E7D564116 /* SocketRocket */,
+				11D4598DC20954642F8668EE5F2A4296 /* Weexplugin */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2A043DD3A1181BD76815AA0AE5969CC6 /* Sources */ = {
+		431B83E76CC50C53E101C682315391E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63DFC39F9B0564D03D9E8F610EB819DC /* Pods-Weexplugin-dummy.m in Sources */,
+				04FAD286C71C569CDD387FE4916ADCEB /* Pods-WeexUITestDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D3B8435F96DEDAF78F2A72CDC3C0EB5 /* Sources */ = {
+		A3206F447C1A4878DD4F9B8F15EB9FFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77C99190A4526C96251270BABA5A250E /* SocketRocket-dummy.m in Sources */,
-				89C596962739A9118A3DE970945B0749 /* SRWebSocket.m in Sources */,
+				4773FD8507AE7FD0E6090AC64242FB90 /* NSData+ImageContentType.m in Sources */,
+				43A3629897665BAB5D1660951A8D5A2B /* SDImageCache.m in Sources */,
+				64DFC79AB6A14D9B731EAB517246CE48 /* SDWebImage-dummy.m in Sources */,
+				FAA26DE58C4EC0FBDA104834E2C113F9 /* SDWebImageCompat.m in Sources */,
+				992B87FA6265E24778A0044D435FF375 /* SDWebImageDecoder.m in Sources */,
+				7EABEC8D864F9481E25B15B2B46E559D /* SDWebImageDownloader.m in Sources */,
+				C3C175A4BACD2396B7C0F27296B26E3B /* SDWebImageDownloaderOperation.m in Sources */,
+				B0BB901DA2B5422B4458A89AAA2CB288 /* SDWebImageManager.m in Sources */,
+				29CD16E123992414AFF319DF1DA098F1 /* SDWebImagePrefetcher.m in Sources */,
+				A3F71BDE469705F45F3F3BEDA7AC6192 /* UIButton+WebCache.m in Sources */,
+				816CA0A31955FE15D5A60E9E6BDF5D73 /* UIImage+GIF.m in Sources */,
+				F7C7AFA4D688FDF9B78BA03FA193D6A2 /* UIImage+MultiFormat.m in Sources */,
+				527C4C48BBF84B93F1E98DBF7246E935 /* UIImageView+HighlightedWebCache.m in Sources */,
+				FC1B6DEF0328EB0A41AA16F8127B3775 /* UIImageView+WebCache.m in Sources */,
+				9FF05B0F10E82B4844755FF9F835CCA4 /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B886EA12720E779540D7516EC451B657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B7F59E272B67469F56CCBDE96A73F1 /* Pods-WeexDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CE272669F7ADD75CB33D16E04DE95E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8E063C8333ADFBEF647A66403CBEA7 /* NSArray+WXMap.m in Sources */,
+				AEE10D19EF8B7B4AAB864DDAF792AB99 /* NSDictionary+WXMap.m in Sources */,
+				1B0D5F820D3EB9AD97C3AFF57F05AA77 /* NSString+WXMap.m in Sources */,
+				C75F0B949024D40A9E1CD2245A07045F /* Weexplugin-dummy.m in Sources */,
+				E0BCCAD1098F7A2B881DF43BDC522386 /* WeexPluginConfigParser.m in Sources */,
+				3D3A6B00ED8A26921AE0C10F751EDED7 /* WeexPluginLoader.m in Sources */,
+				AA9962404AE61115BE6C394EC631D358 /* WeexPluginManager.m in Sources */,
+				185B20D2555901F57B35D99373E76E0E /* WXConvert+AMapKit.m in Sources */,
+				0F35C9EF82D0CE83E2615AB594A241F9 /* WXImgLoaderImpl.m in Sources */,
+				4C095D40553E9300248F737F189CFE6D /* WXMapCircleComponent.m in Sources */,
+				2F55E4B6C3AB5DC80AE1DDC5593EA5FF /* WXMapInfoWindow.m in Sources */,
+				8391FD2A214CD45623D084927915D965 /* WXMapInfoWindowComponent.m in Sources */,
+				ABAC3FF301C717B80CAF1E7314804856 /* WXMapPolygonComponent.m in Sources */,
+				95C4638F0A9BD6F6FE31FCE0714CD9E5 /* WXMapPolylineComponent.m in Sources */,
+				41F8B60B03CEB47BC236CA81CB99EAB1 /* WXMapRenderer.m in Sources */,
+				0D18237B437EA6165550556502766CAC /* WXMapViewComponent.m in Sources */,
+				23EEB14F092BD27E4388EF76B3383847 /* WXMapViewMarkerComponent.m in Sources */,
+				59940C8EFD4348EDB3373197F68B3E84 /* WXMapViewModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD5EAD6C28B4C34314D72E3A3401D90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CEA2EB36F7677B3849834B69171538 /* SocketRocket-dummy.m in Sources */,
+				CAA86E74D778A662B31C77488A074399 /* SRWebSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7E2F983E2F0C429310D8D52C00BCB105 /* PBXTargetDependency */ = {
+		012214C5D0276CD8BC0EFE6F56EFA84A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SocketRocket;
-			target = E845039B2C5025B9C98F10244E1E3D43 /* SocketRocket */;
-			targetProxy = 649B9697E958DD366EBAF862A849ECE9 /* PBXContainerItemProxy */;
+			target = 31DE895CBC97CB105992177E7D564116 /* SocketRocket */;
+			targetProxy = 491E0CDC012F57E32AC6D0F666CCD28D /* PBXContainerItemProxy */;
+		};
+		2F503BC1E2A83F271435FDDA3C477A46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 6B9EE9878C96119478703E62A800B840 /* SDWebImage */;
+			targetProxy = 6DA5C7A166B925DEFDEE8F54F4D812AC /* PBXContainerItemProxy */;
+		};
+		AF7823843F65AC10C984955C8418D410 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Weexplugin;
+			target = 11D4598DC20954642F8668EE5F2A4296 /* Weexplugin */;
+			targetProxy = B7250A7B7B348E009C77EB380C249A86 /* PBXContainerItemProxy */;
+		};
+		C01A024F0D1F4C2B58B5412371372DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 31DE895CBC97CB105992177E7D564116 /* SocketRocket */;
+			targetProxy = 04374B420D5A230216894C74B6F6AAFA /* PBXContainerItemProxy */;
+		};
+		CD75B89A5262958C3420BE16D21CBF41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 6B9EE9878C96119478703E62A800B840 /* SDWebImage */;
+			targetProxy = 434CE28F4AFC0A5E2C5CBFAFBA0D1D47 /* PBXContainerItemProxy */;
+		};
+		D1B119B0128DC7DD17CFA5E48B50E7CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Weexplugin;
+			target = 11D4598DC20954642F8668EE5F2A4296 /* Weexplugin */;
+			targetProxy = E1982AEA508F056B02B9776E078EA305 /* PBXContainerItemProxy */;
+		};
+		DD8F48E25AFD7D16786A8B8C5544A326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 31DE895CBC97CB105992177E7D564116 /* SocketRocket */;
+			targetProxy = D8D4D980E875DDFCDCBEFAD39B5E9067 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C82DBCF18057CA634E93EBB62E6602B /* Debug */ = {
+		036E811DDEE9041F6E1EAA6144BE0801 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33DA445E963E9F0F92C473DE986CB466 /* Pods-Weexplugin.debug.xcconfig */;
+			baseConfigurationReference = 0FDD38496AA49AF89A5CB311E6355D9C /* Weexplugin.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Weexplugin/Weexplugin-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		22D638C86966B8FD5CF7C3225AACCF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B3A67A60149243265D0A5BDA64FBA99 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		29E5BC27DBAAA79691886EE66FA07D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F86F9214E5CA2E9997709910FAEA699 /* Pods-WeexUITestDemo.debug.xcconfig */;
+			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -477,20 +1212,19 @@
 			};
 			name = Debug;
 		};
-		2A024016357DFD826C1FD4959CA0E430 /* Release */ = {
+		3843B2B44359E7429201030DBCD64D6F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F68783DD793C5245AF701D3C821AF4DD /* Pods-Weexplugin.release.xcconfig */;
+			baseConfigurationReference = D7A62A84DB91A55081F9CF6E0F81259F /* Pods-WeexDemo.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -499,7 +1233,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		3890D7C92DE120C2BA762135796CFA80 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -542,6 +1276,29 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41264104B8D79F3027F90C11A8346166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FDD38496AA49AF89A5CB311E6355D9C /* Weexplugin.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Weexplugin/Weexplugin-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -593,11 +1350,33 @@
 			};
 			name = Debug;
 		};
-		5C35CE3643D2670D7D4F6E0BE6B13D45 /* Debug */ = {
+		741FA6F314B5EAB558744C307D9E0C31 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76E7814E2574EC5C3C8B662A1163925A /* SocketRocket.xcconfig */;
+			baseConfigurationReference = 88F9583B145C706ABF836F7DD3BB6863 /* Pods-WeexDemo.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7C141AA4C45CAB41C584B6109C92B62A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D00B0D4FE79DB6ED38EAA62DA301F88 /* SocketRocket.xcconfig */;
+			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -617,11 +1396,33 @@
 			};
 			name = Debug;
 		};
-		F7B58BC7C2E9F3A4002DEDDFF9777B06 /* Release */ = {
+		8AB6975218261DE9F1A0B809D501A5E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76E7814E2574EC5C3C8B662A1163925A /* SocketRocket.xcconfig */;
+			baseConfigurationReference = E7D654E7FAC9E51AAD8B008DA41204F1 /* Pods-WeexUITestDemo.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BE28FA70EB73F38B8F63ECC89E4E24FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D00B0D4FE79DB6ED38EAA62DA301F88 /* SocketRocket.xcconfig */;
+			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -641,9 +1442,41 @@
 			};
 			name = Release;
 		};
+		DBC02D8737B5AE916CEF5CA3003A03FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B3A67A60149243265D0A5BDA64FBA99 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2A8A67C8A8F64440B1EF0A42DA6E1D41 /* Build configuration list for PBXNativeTarget "Pods-WeexDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3843B2B44359E7429201030DBCD64D6F /* Debug */,
+				741FA6F314B5EAB558744C307D9E0C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -653,20 +1486,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C549111632175C156CFBB74521D95D46 /* Build configuration list for PBXNativeTarget "Pods-Weexplugin" */ = {
+		59ACE86284DD07AA71599EC3D9607DDF /* Build configuration list for PBXNativeTarget "Pods-WeexUITestDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1C82DBCF18057CA634E93EBB62E6602B /* Debug */,
-				2A024016357DFD826C1FD4959CA0E430 /* Release */,
+				29E5BC27DBAAA79691886EE66FA07D63 /* Debug */,
+				8AB6975218261DE9F1A0B809D501A5E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F52E534A07B7BB19051541C4373144BB /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+		6C7E3F4C851712F98B2F18588B1FB48E /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C35CE3643D2670D7D4F6E0BE6B13D45 /* Debug */,
-				F7B58BC7C2E9F3A4002DEDDFF9777B06 /* Release */,
+				7C141AA4C45CAB41C584B6109C92B62A /* Debug */,
+				BE28FA70EB73F38B8F63ECC89E4E24FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B75DA04908520F7420CD089E232255 /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D638C86966B8FD5CF7C3225AACCF2C /* Debug */,
+				DBC02D8737B5AE916CEF5CA3003A03FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8145740C3453D111EB7AB8133603E6F /* Build configuration list for PBXNativeTarget "Weexplugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036E811DDEE9041F6E1EAA6144BE0801 /* Debug */,
+				41264104B8D79F3027F90C11A8346166 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -2,7 +2,7 @@ PODS:
   - AMap3DMap (4.6.1):
     - AMapFoundation (~> 1.3)
   - AMapFoundation (1.4.0)
-  - ATSDK (0.0.1)
+  - ATSDK-Weex (0.0.1)
   - SDWebImage (3.7.5):
     - SDWebImage/Core (= 3.7.5)
   - SDWebImage/Core (3.7.5)
@@ -16,7 +16,7 @@ PODS:
     - WeexSDK
 
 DEPENDENCIES:
-  - ATSDK (= 0.0.1)
+  - ATSDK-Weex (= 0.0.1)
   - SDWebImage (= 3.7.5)
   - SocketRocket (= 0.4.2)
   - Weexplugin (from `./Weexplugin/`)
@@ -30,13 +30,13 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AMap3DMap: eb6656fb441ed7eb310b3c121032e947d4d649e5
   AMapFoundation: 458974f46a39df8407fd818ab83d2630d494c726
-  ATSDK: 1df570b25312c98fedfb35696050851bccc0fdd3
+  ATSDK-Weex: 1b27558f4336d77fb97704d34fc6ad1fd468592c
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
   SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
   Weexplugin: 97811926b127b7047d8375b25431fdc9ca6f3f76
   WeexSDK: 8573b6e15195d4efc7c786ddc3be6f50d9ccb01c
   WXDevtool: 5135a5c6f4426fb635babb9eacfa14352bc66dc6
 
-PODFILE CHECKSUM: e5fb975b256b06b1945064dda5c85cc3aefa6758
+PODFILE CHECKSUM: e8eb763540bfd529328146324c8c2db872cefee7
 
 COCOAPODS: 1.2.1
