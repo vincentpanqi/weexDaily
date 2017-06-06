@@ -2,5 +2,9 @@
     {
         "merged": "/Users/jlraining/DEMO/weexDaily/platforms/android/app/build/intermediates/res/merged/release/mipmap-xhdpi/ic_launcher.png",
         "source": "/Users/jlraining/DEMO/weexDaily/platforms/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jlraining/Desktop/论文/weexDaily/platforms/android/app/build/intermediates/res/merged/release/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/jlraining/Desktop/论文/weexDaily/platforms/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     }
 ]

@@ -246,7 +246,6 @@
       },
 
       setUserLocation(callback) {
-        console.log(Amap)
         Amap.getUserLocation(this.$el('map2017').ref, callback);
       },
 
@@ -290,7 +289,6 @@
               this.pos = utils.setPosition(this.runningData.path);
               this.calcDistanceAndSpeed();
             }
-
           });
         }, 10000);
       },
@@ -299,7 +297,6 @@
         if(len > 1) {
           Amap.getLineDistance(this.runningData.path[len-1], this.runningData.path[len-2], (res) => {
             if(res.result == 'success') {
-              console.log(res.data.distance);
               this.runningData.distance += res.data.distance;
             }
             this.runningData.miles = utils.kmtom(this.runningData.distance);

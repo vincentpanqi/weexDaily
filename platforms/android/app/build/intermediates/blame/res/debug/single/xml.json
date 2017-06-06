@@ -1,10 +1,18 @@
 [
     {
+        "merged": "/Users/jlraining/Desktop/论文/weexDaily/platforms/android/app/build/intermediates/res/merged/debug/xml/config.xml",
+        "source": "/Users/jlraining/Desktop/论文/weexDaily/platforms/android/app/build/intermediates/exploded-aar/android/weexplugin/unspecified/res/xml/config.xml"
+    },
+    {
         "merged": "/Users/jlraining/DEMO/weexDaily/platforms/android/app/build/intermediates/res/merged/debug/xml/app_config.xml",
         "source": "/Users/jlraining/DEMO/weexDaily/platforms/android/app/src/main/res/xml/app_config.xml"
     },
     {
         "merged": "/Users/jlraining/DEMO/weexDaily/platforms/android/app/build/intermediates/res/merged/debug/xml/config.xml",
         "source": "/Users/jlraining/DEMO/weexDaily/platforms/android/app/build/intermediates/exploded-aar/android/weexplugin/unspecified/res/xml/config.xml"
+    },
+    {
+        "merged": "/Users/jlraining/Desktop/论文/weexDaily/platforms/android/app/build/intermediates/res/merged/debug/xml/app_config.xml",
+        "source": "/Users/jlraining/Desktop/论文/weexDaily/platforms/android/app/src/main/res/xml/app_config.xml"
     }
 ]

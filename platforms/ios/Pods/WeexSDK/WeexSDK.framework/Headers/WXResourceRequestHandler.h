@@ -40,8 +40,8 @@
 - (void)request:(WXResourceRequest *)request didFailWithError:(NSError *)error;
 
 // Tells the delegate that when complete statistics information has been collected for the task.
-- (void)request:(WXResourceRequest *)request didFinishCollectingMetrics:(NSURLSessionTaskMetrics *)metrics;
-
+//- (void)request:(WXResourceRequest *)request didFinishCollectingMetrics:(NSURLSessionTaskMetrics *)metrics;
+- (void)URLSession:(NSURLSession *)session task:(NSURLSessionTask *)task didFinishCollectingMetrics:(NSURLSessionTaskMetrics *)metrics;
 @end
 
 @protocol WXResourceRequestHandler <NSObject>

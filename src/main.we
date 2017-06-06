@@ -226,10 +226,10 @@
                 });
             },
             onMenuItemclick: function (e) {
-                this.$call('modal', 'toast', {
-                    'message': 'row ' + e.target.attr.rowdata + ' clicked',
-                    'duration': 2.0
-                });
+                // this.$call('modal', 'toast', {
+                //     'message': 'row ' + e.target.attr.rowdata + ' clicked',
+                //     'duration': 2.0
+                // });
                 this.getHomeData(e.target.attr.rowdata);
                 this.hideMenu(e);
             }

@@ -4,6 +4,6 @@
     "BuildVersion": "0.1.0",
     "AppId": "com.apple.weex",
     "CodeSign": "Apple Worldwide Developer Relations Certification Authority",
-    "Profile": "",
+    "Profile": " Automatic",
     "WeexBundle": "index.js"
 }

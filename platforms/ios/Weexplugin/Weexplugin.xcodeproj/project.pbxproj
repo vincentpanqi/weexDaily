@@ -32,23 +32,23 @@
 		0A73F9081E14B0AD005D4F63 /* WeexpluginConfig.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0A73F9071E14B0AD005D4F63 /* WeexpluginConfig.xml */; };
 		3355BB332E31F900928DD5CD /* libPods-Weexplugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1B741D9E92B4033164B223 /* libPods-Weexplugin.a */; };
 		B49FD528E341027887661F96 /* libPods-WeexpluginTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B327916567873C4DB815C61F /* libPods-WeexpluginTests.a */; };
-		4A562207227B47698A6ED1A4 /* WXImgLoaderImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = E2512A7CE7FD4760BC39415A /* WXImgLoaderImpl.m */; };
-		B42F8B3D1A164584BA340ED2 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56A65F39970478CB266F8DD /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		EF06BD6D66804A1ABD02908E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E221CCD8C9425995F1CFF7 /* CoreLocation.framework */; };
-		A31A9FD685BC40B582AE4DFD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5BACEB54F446728171C92C /* AVFoundation.framework */; };
-		B86E31F2B25F4B30B767D008 /* WXMapViewComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 392251C5E26C428CA8CBBA05 /* WXMapViewComponent.m */; };
-		EABF7AA71D1B443D99AA5695 /* WXMapViewMarkerComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F4B1FDD31741719B827ED4 /* WXMapViewMarkerComponent.m */; };
-		68D33CAE44914BE580E24DC1 /* WXMapViewModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B89089DE51864B62B53A6D8D /* WXMapViewModule.m */; };
-		11F5C045D6F040E493357CF9 /* NSArray+WXMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 4563D2EDA431439388FB6EAE /* NSArray+WXMap.m */; };
-		246E0A6E15C74EC98EE98540 /* NSDictionary+WXMap.m in Sources */ = {isa = PBXBuildFile; fileRef = C7792D42551E43E09EDCF00F /* NSDictionary+WXMap.m */; };
-		8B37B5F9CEBA4B3CB0B0803E /* NSString+WXMap.m in Sources */ = {isa = PBXBuildFile; fileRef = D704E277219540F3A4BAA2F2 /* NSString+WXMap.m */; };
-		EFEB4EE5C95643DCB2CDDD84 /* WXConvert+AMapKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D917DDC16DDF45CB8D6CE68C /* WXConvert+AMapKit.m */; };
-		827E0C9DB5EA4D3CB26F8442 /* WXMapCircleComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD645463DEB4850B2FD90D3 /* WXMapCircleComponent.m */; };
-		D210D78F999F4594ABE06918 /* WXMapInfoWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DF79EEB7292F4429BD999200 /* WXMapInfoWindow.m */; };
-		76BB4E4AAE0541C4958F54AD /* WXMapInfoWindowComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C089703DA9E4AEE835A7BDD /* WXMapInfoWindowComponent.m */; };
-		BD9514A037F2450D99FF096E /* WXMapPolygonComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B10B19ED2E4771B79DE48D /* WXMapPolygonComponent.m */; };
-		B5073DAD30134C8DB35948FE /* WXMapPolylineComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = F07199B1A56048EE91D5D034 /* WXMapPolylineComponent.m */; };
-		D25B9D282BE2432E99045DE7 /* WXMapRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF850F5D5EC43149B7F516C /* WXMapRenderer.m */; };
+		F3319725CB62449EB005AF9F /* WXImgLoaderImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DEC2A2AFB245AF9D933DBB /* WXImgLoaderImpl.m */; };
+		BD3E4759AADD4CE2A156C493 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB76C25CC634E65B8D52090 /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5F15405242B548DC9CC88276 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642F2C406AAD43D08BB77707 /* CoreLocation.framework */; };
+		9EA5F1D0214C4F10AA43AE03 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F008688F244E6B823C566C /* AVFoundation.framework */; };
+		D0D79B52CD4B4632B0C07952 /* WXMapViewComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 606BD486102B41389FE58D3A /* WXMapViewComponent.m */; };
+		8D25A28021E24DFF87D6CEEE /* WXMapViewMarkerComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E92F2848804DEA88C6A5A8 /* WXMapViewMarkerComponent.m */; };
+		E0D4A73C0F3A48CDBFB7439B /* WXMapViewModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 618373F1F3DE4BAABEA2DFD0 /* WXMapViewModule.m */; };
+		2B5A7A5CA6AC4154B3E92826 /* NSArray+WXMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B9D0A392024B8CAE2CD10B /* NSArray+WXMap.m */; };
+		25253DFD5CAF4454A4FE1424 /* NSDictionary+WXMap.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F85203BFF54BDFBDA92648 /* NSDictionary+WXMap.m */; };
+		F0AF24B562494B9DA140F40D /* NSString+WXMap.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B6211368A64C60963D71D4 /* NSString+WXMap.m */; };
+		7879CD49F0B94FE387F5E736 /* WXConvert+AMapKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B7D7A21D114FB1BF41F446 /* WXConvert+AMapKit.m */; };
+		EDB2D12094AC40C7AB3A3208 /* WXMapCircleComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 832BF72043E14BC7A2C16AB4 /* WXMapCircleComponent.m */; };
+		565E67AA0304482B95EEEC12 /* WXMapInfoWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A3DC98922E42CEACD3481D /* WXMapInfoWindow.m */; };
+		F5D1A71D6E3F452C8EAFE3DA /* WXMapInfoWindowComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFE6A99C26A47CFB72BE814 /* WXMapInfoWindowComponent.m */; };
+		E7F31686CD384B01AF95C8FD /* WXMapPolygonComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 220FA7C7C11C4FE7847325C6 /* WXMapPolygonComponent.m */; };
+		85A94EE8204C420FA9ED7698 /* WXMapPolylineComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA3CC957BBA40ECB245C18E /* WXMapPolylineComponent.m */; };
+		7D2FA898F9924A5680DB458D /* WXMapRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4EAA5BDD4B441AA446A358 /* WXMapRenderer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,37 +81,37 @@
 		B10B6FADCB9D2B3BCEF64F2B /* Pods-Weexplugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weexplugin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weexplugin/Pods-Weexplugin.release.xcconfig"; sourceTree = "<group>"; };
 		B327916567873C4DB815C61F /* libPods-WeexpluginTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeexpluginTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7D572B0494E68BBD69ED1B /* Pods-Weexplugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weexplugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Weexplugin/Pods-Weexplugin.debug.xcconfig"; sourceTree = "<group>"; };
-		E2512A7CE7FD4760BC39415A /* WXImgLoaderImpl.m */ = {isa = PBXFileReference; name = "WXImgLoaderImpl.m"; path = "weex-adapter-image/WXImgLoaderImpl.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		B999F854928F4050A880D0EB /* WXImgLoaderImpl.h */ = {isa = PBXFileReference; name = "WXImgLoaderImpl.h"; path = "weex-adapter-image/WXImgLoaderImpl.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		A56A65F39970478CB266F8DD /* ImageIO.framework */ = {isa = PBXFileReference; name = "ImageIO.framework"; path = "System/Library/Frameworks/ImageIO.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		26E221CCD8C9425995F1CFF7 /* CoreLocation.framework */ = {isa = PBXFileReference; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		BB5BACEB54F446728171C92C /* AVFoundation.framework */ = {isa = PBXFileReference; name = "AVFoundation.framework"; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		392251C5E26C428CA8CBBA05 /* WXMapViewComponent.m */ = {isa = PBXFileReference; name = "WXMapViewComponent.m"; path = "weex-amap/WXMapViewComponent.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		D5F4B1FDD31741719B827ED4 /* WXMapViewMarkerComponent.m */ = {isa = PBXFileReference; name = "WXMapViewMarkerComponent.m"; path = "weex-amap/WXMapViewMarkerComponent.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		B89089DE51864B62B53A6D8D /* WXMapViewModule.m */ = {isa = PBXFileReference; name = "WXMapViewModule.m"; path = "weex-amap/WXMapViewModule.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		4563D2EDA431439388FB6EAE /* NSArray+WXMap.m */ = {isa = PBXFileReference; name = "NSArray+WXMap.m"; path = "weex-amap/NSArray+WXMap.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		C7792D42551E43E09EDCF00F /* NSDictionary+WXMap.m */ = {isa = PBXFileReference; name = "NSDictionary+WXMap.m"; path = "weex-amap/NSDictionary+WXMap.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		D704E277219540F3A4BAA2F2 /* NSString+WXMap.m */ = {isa = PBXFileReference; name = "NSString+WXMap.m"; path = "weex-amap/NSString+WXMap.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		D917DDC16DDF45CB8D6CE68C /* WXConvert+AMapKit.m */ = {isa = PBXFileReference; name = "WXConvert+AMapKit.m"; path = "weex-amap/WXConvert+AMapKit.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		0FD645463DEB4850B2FD90D3 /* WXMapCircleComponent.m */ = {isa = PBXFileReference; name = "WXMapCircleComponent.m"; path = "weex-amap/WXMapCircleComponent.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		DF79EEB7292F4429BD999200 /* WXMapInfoWindow.m */ = {isa = PBXFileReference; name = "WXMapInfoWindow.m"; path = "weex-amap/WXMapInfoWindow.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		3C089703DA9E4AEE835A7BDD /* WXMapInfoWindowComponent.m */ = {isa = PBXFileReference; name = "WXMapInfoWindowComponent.m"; path = "weex-amap/WXMapInfoWindowComponent.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		56B10B19ED2E4771B79DE48D /* WXMapPolygonComponent.m */ = {isa = PBXFileReference; name = "WXMapPolygonComponent.m"; path = "weex-amap/WXMapPolygonComponent.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		F07199B1A56048EE91D5D034 /* WXMapPolylineComponent.m */ = {isa = PBXFileReference; name = "WXMapPolylineComponent.m"; path = "weex-amap/WXMapPolylineComponent.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		4DF850F5D5EC43149B7F516C /* WXMapRenderer.m */ = {isa = PBXFileReference; name = "WXMapRenderer.m"; path = "weex-amap/WXMapRenderer.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		98599D9C5A0A4030AA97B486 /* WXMapViewComponent.h */ = {isa = PBXFileReference; name = "WXMapViewComponent.h"; path = "weex-amap/WXMapViewComponent.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		CF24058B57C54188A0BD55C4 /* WXMapViewMarkerComponent.h */ = {isa = PBXFileReference; name = "WXMapViewMarkerComponent.h"; path = "weex-amap/WXMapViewMarkerComponent.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		6361890C40E343E0BF71B20F /* WXMapViewModule.h */ = {isa = PBXFileReference; name = "WXMapViewModule.h"; path = "weex-amap/WXMapViewModule.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		9478C6F45B8F4ADCA4F8AA2D /* NSArray+WXMap.h */ = {isa = PBXFileReference; name = "NSArray+WXMap.h"; path = "weex-amap/NSArray+WXMap.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		1E6ADB26B213415D936A907C /* NSDictionary+WXMap.h */ = {isa = PBXFileReference; name = "NSDictionary+WXMap.h"; path = "weex-amap/NSDictionary+WXMap.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		DF24194F3B7A48B09A74436A /* NSString+WXMap.h */ = {isa = PBXFileReference; name = "NSString+WXMap.h"; path = "weex-amap/NSString+WXMap.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		F000AAFAF3BC4B6CB7EE5E49 /* WXConvert+AMapKit.h */ = {isa = PBXFileReference; name = "WXConvert+AMapKit.h"; path = "weex-amap/WXConvert+AMapKit.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		9C0FAF12F9A14E3186C1BCD7 /* WXMapCircleComponent.h */ = {isa = PBXFileReference; name = "WXMapCircleComponent.h"; path = "weex-amap/WXMapCircleComponent.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		CD594D476F5B45949EC5A200 /* WXMapInfoWindow.h */ = {isa = PBXFileReference; name = "WXMapInfoWindow.h"; path = "weex-amap/WXMapInfoWindow.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		AA741133DF2A4A20AA1DEA31 /* WXMapInfoWindowComponent.h */ = {isa = PBXFileReference; name = "WXMapInfoWindowComponent.h"; path = "weex-amap/WXMapInfoWindowComponent.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		80EC5841EA2A4C46BE9BE544 /* WXMapPolygonComponent.h */ = {isa = PBXFileReference; name = "WXMapPolygonComponent.h"; path = "weex-amap/WXMapPolygonComponent.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		92BCFF8B52D14FC9AC8EC53D /* WXMapPolylineComponent.h */ = {isa = PBXFileReference; name = "WXMapPolylineComponent.h"; path = "weex-amap/WXMapPolylineComponent.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		CD39EDE86B9A4CDFAA88B30C /* WXMapRenderer.h */ = {isa = PBXFileReference; name = "WXMapRenderer.h"; path = "weex-amap/WXMapRenderer.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		50DEC2A2AFB245AF9D933DBB /* WXImgLoaderImpl.m */ = {isa = PBXFileReference; name = "WXImgLoaderImpl.m"; path = "weex-adapter-image/WXImgLoaderImpl.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		F61606BB887A4EDCB588AFC2 /* WXImgLoaderImpl.h */ = {isa = PBXFileReference; name = "WXImgLoaderImpl.h"; path = "weex-adapter-image/WXImgLoaderImpl.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		4EB76C25CC634E65B8D52090 /* ImageIO.framework */ = {isa = PBXFileReference; name = "ImageIO.framework"; path = "System/Library/Frameworks/ImageIO.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		642F2C406AAD43D08BB77707 /* CoreLocation.framework */ = {isa = PBXFileReference; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		83F008688F244E6B823C566C /* AVFoundation.framework */ = {isa = PBXFileReference; name = "AVFoundation.framework"; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		606BD486102B41389FE58D3A /* WXMapViewComponent.m */ = {isa = PBXFileReference; name = "WXMapViewComponent.m"; path = "weex-amap/WXMapViewComponent.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		A1E92F2848804DEA88C6A5A8 /* WXMapViewMarkerComponent.m */ = {isa = PBXFileReference; name = "WXMapViewMarkerComponent.m"; path = "weex-amap/WXMapViewMarkerComponent.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		618373F1F3DE4BAABEA2DFD0 /* WXMapViewModule.m */ = {isa = PBXFileReference; name = "WXMapViewModule.m"; path = "weex-amap/WXMapViewModule.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		71B9D0A392024B8CAE2CD10B /* NSArray+WXMap.m */ = {isa = PBXFileReference; name = "NSArray+WXMap.m"; path = "weex-amap/NSArray+WXMap.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		B9F85203BFF54BDFBDA92648 /* NSDictionary+WXMap.m */ = {isa = PBXFileReference; name = "NSDictionary+WXMap.m"; path = "weex-amap/NSDictionary+WXMap.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		A9B6211368A64C60963D71D4 /* NSString+WXMap.m */ = {isa = PBXFileReference; name = "NSString+WXMap.m"; path = "weex-amap/NSString+WXMap.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		17B7D7A21D114FB1BF41F446 /* WXConvert+AMapKit.m */ = {isa = PBXFileReference; name = "WXConvert+AMapKit.m"; path = "weex-amap/WXConvert+AMapKit.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		832BF72043E14BC7A2C16AB4 /* WXMapCircleComponent.m */ = {isa = PBXFileReference; name = "WXMapCircleComponent.m"; path = "weex-amap/WXMapCircleComponent.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		C9A3DC98922E42CEACD3481D /* WXMapInfoWindow.m */ = {isa = PBXFileReference; name = "WXMapInfoWindow.m"; path = "weex-amap/WXMapInfoWindow.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		CCFE6A99C26A47CFB72BE814 /* WXMapInfoWindowComponent.m */ = {isa = PBXFileReference; name = "WXMapInfoWindowComponent.m"; path = "weex-amap/WXMapInfoWindowComponent.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		220FA7C7C11C4FE7847325C6 /* WXMapPolygonComponent.m */ = {isa = PBXFileReference; name = "WXMapPolygonComponent.m"; path = "weex-amap/WXMapPolygonComponent.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		6AA3CC957BBA40ECB245C18E /* WXMapPolylineComponent.m */ = {isa = PBXFileReference; name = "WXMapPolylineComponent.m"; path = "weex-amap/WXMapPolylineComponent.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		FA4EAA5BDD4B441AA446A358 /* WXMapRenderer.m */ = {isa = PBXFileReference; name = "WXMapRenderer.m"; path = "weex-amap/WXMapRenderer.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		79BE3A8C7A2B41DBA5183EC5 /* WXMapViewComponent.h */ = {isa = PBXFileReference; name = "WXMapViewComponent.h"; path = "weex-amap/WXMapViewComponent.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		EB9AEA4AF41C406B89DFF1FF /* WXMapViewMarkerComponent.h */ = {isa = PBXFileReference; name = "WXMapViewMarkerComponent.h"; path = "weex-amap/WXMapViewMarkerComponent.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		39D4D9CB8EE84AD6BAABE6A4 /* WXMapViewModule.h */ = {isa = PBXFileReference; name = "WXMapViewModule.h"; path = "weex-amap/WXMapViewModule.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		3F4BD4C878D44CB7B5C67253 /* NSArray+WXMap.h */ = {isa = PBXFileReference; name = "NSArray+WXMap.h"; path = "weex-amap/NSArray+WXMap.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		4BCB7696CA3E44E0A1A0071E /* NSDictionary+WXMap.h */ = {isa = PBXFileReference; name = "NSDictionary+WXMap.h"; path = "weex-amap/NSDictionary+WXMap.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		7B2ED410058B44E781E35BCC /* NSString+WXMap.h */ = {isa = PBXFileReference; name = "NSString+WXMap.h"; path = "weex-amap/NSString+WXMap.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		978435C94E0E4EB2931D1F30 /* WXConvert+AMapKit.h */ = {isa = PBXFileReference; name = "WXConvert+AMapKit.h"; path = "weex-amap/WXConvert+AMapKit.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		85530E9019F84FCBAF97642A /* WXMapCircleComponent.h */ = {isa = PBXFileReference; name = "WXMapCircleComponent.h"; path = "weex-amap/WXMapCircleComponent.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		5BD95C280C1B4A888B5726D5 /* WXMapInfoWindow.h */ = {isa = PBXFileReference; name = "WXMapInfoWindow.h"; path = "weex-amap/WXMapInfoWindow.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		C66919D4B89B4B84AEBE5C26 /* WXMapInfoWindowComponent.h */ = {isa = PBXFileReference; name = "WXMapInfoWindowComponent.h"; path = "weex-amap/WXMapInfoWindowComponent.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		C347828A36E54FBFB8FC7DC3 /* WXMapPolygonComponent.h */ = {isa = PBXFileReference; name = "WXMapPolygonComponent.h"; path = "weex-amap/WXMapPolygonComponent.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		BDB16C185FC646B4BE24ADBD /* WXMapPolylineComponent.h */ = {isa = PBXFileReference; name = "WXMapPolylineComponent.h"; path = "weex-amap/WXMapPolylineComponent.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		25C8DFA16A34486AA2A8A8D7 /* WXMapRenderer.h */ = {isa = PBXFileReference; name = "WXMapRenderer.h"; path = "weex-amap/WXMapRenderer.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,9 +120,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3355BB332E31F900928DD5CD /* libPods-Weexplugin.a in Frameworks */,
-				B42F8B3D1A164584BA340ED2 /* ImageIO.framework in Frameworks */,
-				EF06BD6D66804A1ABD02908E /* CoreLocation.framework in Frameworks */,
-				A31A9FD685BC40B582AE4DFD /* AVFoundation.framework in Frameworks */,
+				BD3E4759AADD4CE2A156C493 /* ImageIO.framework in Frameworks */,
+				5F15405242B548DC9CC88276 /* CoreLocation.framework in Frameworks */,
+				9EA5F1D0214C4F10AA43AE03 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +164,7 @@
 				0A019EDB1E10C6F5004F0C64 /* Source */,
 				0A019EE91E10C74E004F0C64 /* Resources */,
 				0A019EB51E10BDFD004F0C64 /* Weexplugin.h */,
-				4169B5A32A1A4426973C114A /* Plugins */,
+				413615A788084D67AFAFBACD /* Plugins */,
 			);
 			path = Weexplugin;
 			sourceTree = "<group>";
@@ -213,9 +213,9 @@
 			children = (
 				3B1B741D9E92B4033164B223 /* libPods-Weexplugin.a */,
 				B327916567873C4DB815C61F /* libPods-WeexpluginTests.a */,
-				A56A65F39970478CB266F8DD /* ImageIO.framework */,
-				26E221CCD8C9425995F1CFF7 /* CoreLocation.framework */,
-				BB5BACEB54F446728171C92C /* AVFoundation.framework */,
+				4EB76C25CC634E65B8D52090 /* ImageIO.framework */,
+				642F2C406AAD43D08BB77707 /* CoreLocation.framework */,
+				83F008688F244E6B823C566C /* AVFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -231,37 +231,37 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		4169B5A32A1A4426973C114A /* Plugins */ = {
+		413615A788084D67AFAFBACD /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				E2512A7CE7FD4760BC39415A /* WXImgLoaderImpl.m */,
-				B999F854928F4050A880D0EB /* WXImgLoaderImpl.h */,
-				392251C5E26C428CA8CBBA05 /* WXMapViewComponent.m */,
-				D5F4B1FDD31741719B827ED4 /* WXMapViewMarkerComponent.m */,
-				B89089DE51864B62B53A6D8D /* WXMapViewModule.m */,
-				4563D2EDA431439388FB6EAE /* NSArray+WXMap.m */,
-				C7792D42551E43E09EDCF00F /* NSDictionary+WXMap.m */,
-				D704E277219540F3A4BAA2F2 /* NSString+WXMap.m */,
-				D917DDC16DDF45CB8D6CE68C /* WXConvert+AMapKit.m */,
-				0FD645463DEB4850B2FD90D3 /* WXMapCircleComponent.m */,
-				DF79EEB7292F4429BD999200 /* WXMapInfoWindow.m */,
-				3C089703DA9E4AEE835A7BDD /* WXMapInfoWindowComponent.m */,
-				56B10B19ED2E4771B79DE48D /* WXMapPolygonComponent.m */,
-				F07199B1A56048EE91D5D034 /* WXMapPolylineComponent.m */,
-				4DF850F5D5EC43149B7F516C /* WXMapRenderer.m */,
-				98599D9C5A0A4030AA97B486 /* WXMapViewComponent.h */,
-				CF24058B57C54188A0BD55C4 /* WXMapViewMarkerComponent.h */,
-				6361890C40E343E0BF71B20F /* WXMapViewModule.h */,
-				9478C6F45B8F4ADCA4F8AA2D /* NSArray+WXMap.h */,
-				1E6ADB26B213415D936A907C /* NSDictionary+WXMap.h */,
-				DF24194F3B7A48B09A74436A /* NSString+WXMap.h */,
-				F000AAFAF3BC4B6CB7EE5E49 /* WXConvert+AMapKit.h */,
-				9C0FAF12F9A14E3186C1BCD7 /* WXMapCircleComponent.h */,
-				CD594D476F5B45949EC5A200 /* WXMapInfoWindow.h */,
-				AA741133DF2A4A20AA1DEA31 /* WXMapInfoWindowComponent.h */,
-				80EC5841EA2A4C46BE9BE544 /* WXMapPolygonComponent.h */,
-				92BCFF8B52D14FC9AC8EC53D /* WXMapPolylineComponent.h */,
-				CD39EDE86B9A4CDFAA88B30C /* WXMapRenderer.h */,
+				50DEC2A2AFB245AF9D933DBB /* WXImgLoaderImpl.m */,
+				F61606BB887A4EDCB588AFC2 /* WXImgLoaderImpl.h */,
+				606BD486102B41389FE58D3A /* WXMapViewComponent.m */,
+				A1E92F2848804DEA88C6A5A8 /* WXMapViewMarkerComponent.m */,
+				618373F1F3DE4BAABEA2DFD0 /* WXMapViewModule.m */,
+				71B9D0A392024B8CAE2CD10B /* NSArray+WXMap.m */,
+				B9F85203BFF54BDFBDA92648 /* NSDictionary+WXMap.m */,
+				A9B6211368A64C60963D71D4 /* NSString+WXMap.m */,
+				17B7D7A21D114FB1BF41F446 /* WXConvert+AMapKit.m */,
+				832BF72043E14BC7A2C16AB4 /* WXMapCircleComponent.m */,
+				C9A3DC98922E42CEACD3481D /* WXMapInfoWindow.m */,
+				CCFE6A99C26A47CFB72BE814 /* WXMapInfoWindowComponent.m */,
+				220FA7C7C11C4FE7847325C6 /* WXMapPolygonComponent.m */,
+				6AA3CC957BBA40ECB245C18E /* WXMapPolylineComponent.m */,
+				FA4EAA5BDD4B441AA446A358 /* WXMapRenderer.m */,
+				79BE3A8C7A2B41DBA5183EC5 /* WXMapViewComponent.h */,
+				EB9AEA4AF41C406B89DFF1FF /* WXMapViewMarkerComponent.h */,
+				39D4D9CB8EE84AD6BAABE6A4 /* WXMapViewModule.h */,
+				3F4BD4C878D44CB7B5C67253 /* NSArray+WXMap.h */,
+				4BCB7696CA3E44E0A1A0071E /* NSDictionary+WXMap.h */,
+				7B2ED410058B44E781E35BCC /* NSString+WXMap.h */,
+				978435C94E0E4EB2931D1F30 /* WXConvert+AMapKit.h */,
+				85530E9019F84FCBAF97642A /* WXMapCircleComponent.h */,
+				5BD95C280C1B4A888B5726D5 /* WXMapInfoWindow.h */,
+				C66919D4B89B4B84AEBE5C26 /* WXMapInfoWindowComponent.h */,
+				C347828A36E54FBFB8FC7DC3 /* WXMapPolygonComponent.h */,
+				BDB16C185FC646B4BE24ADBD /* WXMapPolylineComponent.h */,
+				25C8DFA16A34486AA2A8A8D7 /* WXMapRenderer.h */,
 			);
 			name = Plugins;
 			path = Plugins;
@@ -484,20 +484,20 @@
 				0A019F191E110BD0004F0C64 /* WeexPluginManager.m in Sources */,
 				0A019F081E10F10D004F0C64 /* WeexPluginLoader.m in Sources */,
 				0A019F061E10F10D004F0C64 /* WeexPluginConfigParser.m in Sources */,
-				4A562207227B47698A6ED1A4 /* WXImgLoaderImpl.m in Sources */,
-				B86E31F2B25F4B30B767D008 /* WXMapViewComponent.m in Sources */,
-				EABF7AA71D1B443D99AA5695 /* WXMapViewMarkerComponent.m in Sources */,
-				68D33CAE44914BE580E24DC1 /* WXMapViewModule.m in Sources */,
-				11F5C045D6F040E493357CF9 /* NSArray+WXMap.m in Sources */,
-				246E0A6E15C74EC98EE98540 /* NSDictionary+WXMap.m in Sources */,
-				8B37B5F9CEBA4B3CB0B0803E /* NSString+WXMap.m in Sources */,
-				EFEB4EE5C95643DCB2CDDD84 /* WXConvert+AMapKit.m in Sources */,
-				827E0C9DB5EA4D3CB26F8442 /* WXMapCircleComponent.m in Sources */,
-				D210D78F999F4594ABE06918 /* WXMapInfoWindow.m in Sources */,
-				76BB4E4AAE0541C4958F54AD /* WXMapInfoWindowComponent.m in Sources */,
-				BD9514A037F2450D99FF096E /* WXMapPolygonComponent.m in Sources */,
-				B5073DAD30134C8DB35948FE /* WXMapPolylineComponent.m in Sources */,
-				D25B9D282BE2432E99045DE7 /* WXMapRenderer.m in Sources */,
+				F3319725CB62449EB005AF9F /* WXImgLoaderImpl.m in Sources */,
+				D0D79B52CD4B4632B0C07952 /* WXMapViewComponent.m in Sources */,
+				8D25A28021E24DFF87D6CEEE /* WXMapViewMarkerComponent.m in Sources */,
+				E0D4A73C0F3A48CDBFB7439B /* WXMapViewModule.m in Sources */,
+				2B5A7A5CA6AC4154B3E92826 /* NSArray+WXMap.m in Sources */,
+				25253DFD5CAF4454A4FE1424 /* NSDictionary+WXMap.m in Sources */,
+				F0AF24B562494B9DA140F40D /* NSString+WXMap.m in Sources */,
+				7879CD49F0B94FE387F5E736 /* WXConvert+AMapKit.m in Sources */,
+				EDB2D12094AC40C7AB3A3208 /* WXMapCircleComponent.m in Sources */,
+				565E67AA0304482B95EEEC12 /* WXMapInfoWindow.m in Sources */,
+				F5D1A71D6E3F452C8EAFE3DA /* WXMapInfoWindowComponent.m in Sources */,
+				E7F31686CD384B01AF95C8FD /* WXMapPolygonComponent.m in Sources */,
+				85A94EE8204C420FA9ED7698 /* WXMapPolylineComponent.m in Sources */,
+				7D2FA898F9924A5680DB458D /* WXMapRenderer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

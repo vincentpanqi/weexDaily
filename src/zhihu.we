@@ -155,7 +155,7 @@
             onReadCellClick: function (e) {
                 var self = this;
                 var itemid = e.target.attr.item.id;
-                //self.openEssayDetail(itemid);
+                self.openEssayDetail(itemid);
             },
 
             openEssayDetail: function (id) {
